@@ -27,6 +27,10 @@ _Pronounced “veetest” (/ˈviːtɛst/)._
 
 - [**vitest-react-serializer**](https://github.com/porada/vitest-react-serializer) — Serialize React components into formatted HTML.
 
+### Utilities
+
+- [**vitest-fail-on-console**](https://github.com/thomasbrodusch/vitest-fail-on-console) — Fails tests when `console.error()` is called.
+
 ## Related Lists
 
 - [Awesome Vite](https://github.com/vitejs/awesome-vite)
