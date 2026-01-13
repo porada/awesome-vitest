@@ -12,7 +12,7 @@ _Pronounced “veetest” (/ˈviːtɛst/)._
 - [Browser Mode](https://vitest.dev/guide/browser/)
 - [Type Testing](https://vitest.dev/guide/testing-types.html)
 
-## Resources
+## Packages
 
 ### Linting
 
@@ -25,6 +25,7 @@ _Pronounced “veetest” (/ˈviːtɛst/)._
 
 ### Snapshot Testing
 
+- [**vitest-image-snapshot**](https://github.com/wgsl-tooling-wg/wesl-js/tree/main/tools/packages/vitest-image-snapshot) — Visual regression testing for images.
 - [**vitest-react-serializer**](https://github.com/porada/vitest-react-serializer) — Serialize React components into formatted HTML.
 
 ### Utilities
