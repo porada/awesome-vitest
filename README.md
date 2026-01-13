@@ -29,7 +29,11 @@ _Pronounced “veetest” (/ˈviːtɛst/)._
 
 ### Utilities
 
-- [**vitest-fail-on-console**](https://github.com/thomasbrodusch/vitest-fail-on-console) — Fails tests when `console.error()` is called.
+- [**vitest-fail-on-console**](https://github.com/thomasbrodusch/vitest-fail-on-console) — Fail tests on `console.error()`.
+
+### Integrations
+
+- [**@cloudflare/vitest-pool-workers**](https://developers.cloudflare.com/workers/testing/vitest-integration/) — Run Vitest tests in a Cloudflare Workers runtime.
 
 ## Related Lists
 
