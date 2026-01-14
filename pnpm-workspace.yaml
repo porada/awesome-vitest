@@ -1,2 +1,6 @@
+autoInstallPeers: false
+
 onlyBuiltDependencies:
   - simple-git-hooks
+
+strictPeerDependencies: true
