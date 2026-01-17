@@ -1,18 +1,47 @@
-[![](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+<p align="center">
+    <a href="https://github.com/porada/awesome-vitest">
+        <picture>
+            <source srcset="assets/awesome-vitest-dark-scheme@3x.png" media="(prefers-color-scheme: dark)" />
+            <source srcset="assets/awesome-vitest-light-scheme@3x.png" media="(prefers-color-scheme: light)" />
+            <img src="assets/awesome-vitest-light-scheme@3x.png" width="520" height="260" alt="" />
+        </picture>
+    </a>
+</p>
 
-# Awesome Vitest
+<h1 align="center">
+    Awesome Vitest
+</h1>
 
-[Vitest](https://vitest.dev) is a next-generation testing framework with native support for ES Modules, TypeScript, and JSX.
+<p align="center">
+    <i>pronounced “veetest” (/ˈviːtɛst/)</i>
+</p>
 
-_Pronounced “veetest” (/ˈviːtɛst/)._
+<p align="center">
+    <a href="https://vitest.dev">Vitest</a> is a next-generation testing framework<br />
+    with native support for ES&nbsp;Modules,<br />
+    TypeScript, and&nbsp;JSX.
+</p>
 
-## Official Guides
+<p align="center">
+    <a href="https://awesome.re">
+        <img src="https://awesome.re/badge-flat2.svg" alt="" />
+    </a>
+</p>
+
+## Official Resources
+
+### Guides
 
 - [Getting Started](https://vitest.dev/guide/)
-- [Browser Mode](https://vitest.dev/guide/browser/)
-- [Type Testing](https://vitest.dev/guide/testing-types.html)
+- [Migrating From Jest](https://vitest.dev/guide/migration#jest)
 
-## Community
+### Features
+
+- [Browser Mode](https://vitest.dev/guide/browser/)
+- [Type Testing](https://vitest.dev/guide/testing-types)
+- [In-Source Testing](https://vitest.dev/guide/in-source)
+
+### Community
 
 - [Discord](https://chat.vitest.dev)
 - [GitHub Discussions](https://github.com/vitest-dev/vitest/discussions)
