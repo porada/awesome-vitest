@@ -61,6 +61,7 @@
 
 - [**vitest-ansi-serializer**](https://github.com/43081j/vitest-ansi-serializer) — Serialize ANSI escape sequences into human-readable strings.
 - [**vitest-image-snapshot**](https://github.com/wgsl-tooling-wg/wesl-js/tree/main/tools/packages/vitest-image-snapshot) — Visual regression testing for images.
+- [**vitest-package-exports**](https://github.com/antfu/vitest-package-exports) — Guard exported APIs against unintended breaking changes.
 - [**vitest-react-serializer**](https://github.com/porada/vitest-react-serializer) — Serialize React components into formatted HTML.
 
 ### Utilities
