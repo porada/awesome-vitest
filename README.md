@@ -12,6 +12,11 @@ _Pronounced “veetest” (/ˈviːtɛst/)._
 - [Browser Mode](https://vitest.dev/guide/browser/)
 - [Type Testing](https://vitest.dev/guide/testing-types.html)
 
+## Community
+
+- [Discord](https://chat.vitest.dev)
+- [GitHub Discussions](https://github.com/vitest-dev/vitest/discussions)
+
 ## Packages
 
 ### Linting
