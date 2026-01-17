@@ -1,5 +1,7 @@
 <p align="center">
-    <img src="assets/awesome-vitest@3x.png" width="350" height="275" alt="">
+    <a href="https://github.com/porada/awesome-vitest">
+        <img src="assets/awesome-vitest@3x.png" width="400" height="250" alt="">
+    </a>
 </p>
 
 <h1 align="center">
@@ -17,7 +19,9 @@
 </p>
 
 <p align="center">
-    <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="" /></a>
+    <a href="https://awesome.re">
+        <img src="https://awesome.re/badge-flat2.svg" alt="" />
+    </a>
 </p>
 
 ## Official Resources
