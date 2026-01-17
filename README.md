@@ -1,6 +1,10 @@
 <p align="center">
     <a href="https://github.com/porada/awesome-vitest">
-        <img src="assets/awesome-vitest@3x.png" width="520" height="260" alt="">
+        <picture>
+            <source srcset="assets/awesome-vitest-dark-scheme@3x.png" media="(prefers-color-scheme: dark)" />
+            <source srcset="assets/awesome-vitest-light-scheme@3x.png" media="(prefers-color-scheme: light)" />
+            <img src="assets/awesome-vitest-light-scheme@3x.png" width="520" height="260" alt="" />
+        </picture>
     </a>
 </p>
 
