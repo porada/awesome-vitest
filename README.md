@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="assets/awesome-vitest@3x.png" width="350" height="275" alt="">
+</p>
+
 <h1 align="center">
     Awesome Vitest
 </h1>
