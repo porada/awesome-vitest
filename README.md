@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/porada/awesome-vitest">
-        <img src="assets/awesome-vitest@3x.png" width="400" height="250" alt="">
+        <img src="assets/awesome-vitest@3x.png" width="520" height="260" alt="">
     </a>
 </p>
 
