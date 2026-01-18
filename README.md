@@ -56,6 +56,7 @@
 ### Mocking
 
 - [**vitest-mock-extended**](https://github.com/eratio08/vitest-mock-extended) — Type-safe mocking extensions.
+- [**vitest-websocket-mock**](https://github.com/akiomik/vitest-websocket-mock) — Test complex WebSocket interactions.
 
 ### Snapshot Testing
 
