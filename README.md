@@ -55,6 +55,7 @@
 
 ### Mocking
 
+- [**vitest-fetch-mock**](https://github.com/IanVS/vitest-fetch-mock) — Mock `fetch` requests and responses.
 - [**vitest-mock-extended**](https://github.com/eratio08/vitest-mock-extended) — Type-safe mocking extensions.
 - [**vitest-websocket-mock**](https://github.com/akiomik/vitest-websocket-mock) — Test complex WebSocket interactions.
 
