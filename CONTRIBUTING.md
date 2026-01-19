@@ -1,14 +1,14 @@
 # Contributing Guidelines
 
-Pull requests are welcome! Here’s a few things to keep in mind, though:
+Submissions are welcome! Here’s a few things to keep in mind, though:
+
+- **One resource per submission.**
+
+    Open an issue or submit a pull request for a single item. Submit tools you’ve actually used and can vouch for.
 
 - **Submit Vitest resources only.**
 
-    This is a Vitest-specific list, so Jest packages that are compatible with Vitest don’t qualify.
-
-- **One resource per pull request, please.**
-
-    Submit tools you’ve actually used and can vouch for.
+    This list is specific to Vitest. Jest packages compatible with Vitest don’t qualify.
 
 - **Keep your pull request editable.**
 

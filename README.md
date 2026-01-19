@@ -28,6 +28,8 @@
     </a>
 </p>
 
+<div>&nbsp;</div>
+
 ## Official Resources
 
 ### Guides
@@ -46,11 +48,13 @@
 - [Discord](https://chat.vitest.dev)
 - [GitHub Discussions](https://github.com/vitest-dev/vitest/discussions)
 
+<div>&nbsp;</div>
+
 ## Packages
 
 ### Linting
 
-- [**@vitest/eslint-plugin**](https://github.com/vitest-dev/eslint-plugin-vitest) — The official ESLint plugin for Vitest.
+- [**@vitest/eslint-plugin**](https://github.com/vitest-dev/eslint-plugin-vitest) — The official ESLint plugin.
 - [**oxlint**](https://oxc.rs/docs/guide/usage/linter.html) — Next-generation linter written in Rust with native support for Vitest.
 
 ### Mocking
@@ -75,6 +79,8 @@
 
 - [**@cloudflare/vitest-pool-workers**](https://developers.cloudflare.com/workers/testing/vitest-integration/) — Run Vitest tests in a Cloudflare Workers runtime.
 - [**eslint-vitest-rule-tester**](https://github.com/antfu-collective/eslint-vitest-rule-tester) — Test ESLint rules using Vitest.
+
+<div>&nbsp;</div>
 
 ## Related Lists
 
