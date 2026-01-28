@@ -82,6 +82,10 @@
 - [**@cloudflare/vitest-pool-workers**](https://developers.cloudflare.com/workers/testing/vitest-integration/) — Run Vitest tests in a Cloudflare Workers runtime.
 - [**eslint-vitest-rule-tester**](https://github.com/antfu-collective/eslint-vitest-rule-tester) — Test ESLint rules using Vitest.
 
+### Agents Skills
+
+- [**antfu/skills**](https://github.com/antfu/skills) — Collection of agent skills by Anthony Fu, including Vitest.
+
 <div>&nbsp;</div>
 
 ## Related Lists
