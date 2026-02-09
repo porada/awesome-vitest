@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@standard-config/prettier':
-        specifier: 1.7.0
-        version: 1.7.0(prettier@3.8.1)
+        specifier: 1.9.1
+        version: 1.9.1(prettier@3.8.1)
       prettier:
         specifier: 3.8.1
         version: 3.8.1
@@ -134,18 +134,29 @@ packages:
     resolution: {integrity: sha512-aABz3zIRilpWMekbt1FL1JVBQrQLR8L4Td2SRctECrWSsXGTNn/G1BqNSKCdbvQS1LWstAXfqcXzDki7GAAJyg==}
     engines: {node: '>=14'}
 
+  '@prettier/plugin-xml@3.4.2':
+    resolution: {integrity: sha512-/UyNlHfkuLXG6Ed85KB0WBF283xn2yavR+UtRibBRUcvEJId2DSLdGXwJ/cDa1X++SWDPzq3+GSFniHjkNy7yg==}
+    peerDependencies:
+      prettier: ^3.0.0
+
   '@reteps/dockerfmt@0.3.6':
     resolution: {integrity: sha512-Tb5wIMvBf/nLejTQ61krK644/CEMB/cpiaIFXqGApfGqO3GwcR3qnI0DbmkFVCl2OyEp8LnLX3EkucoL0+tbFg==}
     engines: {node: ^v12.20.0 || ^14.13.0 || >=16.0.0}
 
-  '@standard-config/prettier@1.7.0':
-    resolution: {integrity: sha512-tP0ydiyibD7httkOdgpxndV2pGGBBZIp+zdy9YJob32jCyyTvLNmR21a2S4V9EgskZKTowLGJnl0FxvIfm7DNw==}
+  '@standard-config/prettier@1.9.1':
+    resolution: {integrity: sha512-WuRi6b29GvwDFZGXyhjF2afXpaWU57hIfrzQhPeUrOpwY1OG1WZugpFLlrxH3yOc+9xg1mQt/ttztxExfGyMxQ==}
     engines: {node: '>=20'}
     peerDependencies:
       prettier: '>=3.7'
 
   '@tybys/wasm-util@0.10.1':
     resolution: {integrity: sha512-9tTaPJLSiejZKx+Bmog4uSubteqTvFrVrURwkmHixBo0G4seD0zUxp98E1DzUBJxLQ3NPwXrGKDiVjwx/DpPsg==}
+
+  '@xml-tools/parser@1.0.11':
+    resolution: {integrity: sha512-aKqQ077XnR+oQtHJlrAflaZaL7qZsulWc/i/ZEooar5JiWj1eLt0+Wg28cpa+XLney107wXqneC+oG1IZvxkTA==}
+
+  chevrotain@7.1.1:
+    resolution: {integrity: sha512-wy3mC1x4ye+O+QkEinVJkPf5u2vsrDIYW9G7ZuwFl6v/Yu0LwUuT2POsb+NUWApebyxfkQq6+yDfRExbnI5rcw==}
 
   detect-indent@7.0.2:
     resolution: {integrity: sha512-y+8xyqdGLL+6sh0tVeHcfP/QDd8gUgbasolJJpY7NgeQGSZ739bDtSiaiDgtoicy+mtYB81dKLxO9xRhCyIB3A==}
@@ -171,9 +182,6 @@ packages:
     resolution: {integrity: sha512-+Pgi+vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61/mmDqg==}
     engines: {node: '>=12'}
 
-  jsonc-parser@3.3.1:
-    resolution: {integrity: sha512-HUgH65KyejrUFPvHFPbqOY0rsFip3Bo5wb4ngvdi1EpCYWUQDC5V+Y7mZws+DLkr4M//zQJoanu1SP+87Dv1oQ==}
-
   oxc-parser@0.99.0:
     resolution: {integrity: sha512-MpS1lbd2vR0NZn1v0drpgu7RUFu3x9Rd0kxExObZc2+F+DIrV0BOMval/RO3BYGwssIOerII6iS8EbbpCCZQpQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -182,8 +190,14 @@ packages:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
 
-  prettier-plugin-expand-json@1.0.3:
-    resolution: {integrity: sha512-8NtMuvKO33Xeok6B+kFBdLQWTBZ9KyI5iVupkSdy5va0ljt8O7em7L6b0bdAptKd/uwIl95IQI4Y3azOSTo+QQ==}
+  prettier-plugin-expand-json@1.0.4:
+    resolution: {integrity: sha512-uBC3RrA+XhyJlHwBfeYPjK2yRRsRqDXWxhacYj9W5VmHlAjVTqpgw3A0OpItlcq5RsHGDlr4R9qWdqvJGR2DXw==}
+    engines: {node: '>=20'}
+    peerDependencies:
+      prettier: '>=3'
+
+  prettier-plugin-markdown-html@1.2.0:
+    resolution: {integrity: sha512-57d+ibXuYdmF728ZUnw473v+lxAm2QQDATltcbHMpKPNDA/VNtOBrkJndLhvZxCfLSuw4Y+XhMzzy0G//3VjMQ==}
     engines: {node: '>=20'}
     peerDependencies:
       prettier: '>=3'
@@ -208,9 +222,9 @@ packages:
     peerDependencies:
       prettier: ^3.0.0
 
-  prettier-plugin-yaml@1.0.1:
-    resolution: {integrity: sha512-evFueeMkmnaH0njXIf2TeKe5grF23EXh0gPY0pdHegapaxAzL1w0llh18VdkhqKLgYOW9n957e4Z7TmmgTOUEQ==}
-    engines: {node: '>=22'}
+  prettier-plugin-yaml@1.1.2:
+    resolution: {integrity: sha512-r5HPX8AsSJxXBOgDJpi9SFln2/LpACikcXxVUYszkTWM30h3dyg3gMZgBYT4CNVFuMl1JwVYsqy18JqRrj0ZTg==}
+    engines: {node: '>=20'}
     peerDependencies:
       prettier: '>=3'
 
@@ -219,11 +233,14 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
+  regexp-to-ast@0.5.0:
+    resolution: {integrity: sha512-tlbJqcMHnPKI9zSrystikWKwHkBqu2a/Sgw01h3zFjvYrMxEDYHzzoMZnUrbIfpTFEsoRnnviOXNCzFiSc54Qw==}
+
   rfdc@1.4.1:
     resolution: {integrity: sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA==}
 
-  semver@7.7.3:
-    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
+  semver@7.7.4:
+    resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -333,23 +350,38 @@ snapshots:
     dependencies:
       oxc-parser: 0.99.0
 
+  '@prettier/plugin-xml@3.4.2(prettier@3.8.1)':
+    dependencies:
+      '@xml-tools/parser': 1.0.11
+      prettier: 3.8.1
+
   '@reteps/dockerfmt@0.3.6': {}
 
-  '@standard-config/prettier@1.7.0(prettier@3.8.1)':
+  '@standard-config/prettier@1.9.1(prettier@3.8.1)':
     dependencies:
       '@prettier/plugin-oxc': 0.1.3
+      '@prettier/plugin-xml': 3.4.2(prettier@3.8.1)
       prettier: 3.8.1
-      prettier-plugin-expand-json: 1.0.3(prettier@3.8.1)
+      prettier-plugin-expand-json: 1.0.4(prettier@3.8.1)
+      prettier-plugin-markdown-html: 1.2.0(prettier@3.8.1)
       prettier-plugin-packagejson: 3.0.0(prettier@3.8.1)
       prettier-plugin-sh: 0.18.0(prettier@3.8.1)
       prettier-plugin-sort-json: 4.2.0(prettier@3.8.1)
-      prettier-plugin-yaml: 1.0.1(prettier@3.8.1)
+      prettier-plugin-yaml: 1.1.2(prettier@3.8.1)
       rfdc: 1.4.1
 
   '@tybys/wasm-util@0.10.1':
     dependencies:
       tslib: 2.8.1
     optional: true
+
+  '@xml-tools/parser@1.0.11':
+    dependencies:
+      chevrotain: 7.1.1
+
+  chevrotain@7.1.1:
+    dependencies:
+      regexp-to-ast: 0.5.0
 
   detect-indent@7.0.2: {}
 
@@ -362,8 +394,6 @@ snapshots:
   git-hooks-list@4.2.1: {}
 
   is-plain-obj@4.1.0: {}
-
-  jsonc-parser@3.3.1: {}
 
   oxc-parser@0.99.0:
     dependencies:
@@ -387,9 +417,12 @@ snapshots:
 
   picomatch@4.0.3: {}
 
-  prettier-plugin-expand-json@1.0.3(prettier@3.8.1):
+  prettier-plugin-expand-json@1.0.4(prettier@3.8.1):
     dependencies:
-      jsonc-parser: 3.3.1
+      prettier: 3.8.1
+
+  prettier-plugin-markdown-html@1.2.0(prettier@3.8.1):
+    dependencies:
       prettier: 3.8.1
 
   prettier-plugin-packagejson@3.0.0(prettier@3.8.1):
@@ -408,16 +441,18 @@ snapshots:
     dependencies:
       prettier: 3.8.1
 
-  prettier-plugin-yaml@1.0.1(prettier@3.8.1):
+  prettier-plugin-yaml@1.1.2(prettier@3.8.1):
     dependencies:
       prettier: 3.8.1
       yaml: 2.8.2
 
   prettier@3.8.1: {}
 
+  regexp-to-ast@0.5.0: {}
+
   rfdc@1.4.1: {}
 
-  semver@7.7.3: {}
+  semver@7.7.4: {}
 
   sh-syntax@0.5.8:
     dependencies:
@@ -433,7 +468,7 @@ snapshots:
       detect-newline: 4.0.1
       git-hooks-list: 4.2.1
       is-plain-obj: 4.1.0
-      semver: 7.7.3
+      semver: 7.7.4
       sort-object-keys: 2.1.0
       tinyglobby: 0.2.15
 
