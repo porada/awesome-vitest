@@ -9,13 +9,13 @@ importers:
   .:
     devDependencies:
       '@standard-config/prettier':
-        specifier: 1.9.1
+        specifier: ^1.9.1
         version: 1.9.1(prettier@3.8.1)
       prettier:
-        specifier: 3.8.1
+        specifier: ^3.8.1
         version: 3.8.1
       simple-git-hooks:
-        specifier: 2.13.1
+        specifier: ^2.13.1
         version: 2.13.1
 
 packages:
