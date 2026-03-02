@@ -82,6 +82,10 @@
 - [**vitest-package-exports**](https://github.com/antfu/vitest-package-exports) — Guard exported APIs against unintended breaking changes.
 - [**vitest-react-serializer**](https://github.com/porada/vitest-react-serializer) — Serialize React components into formatted HTML.
 
+### Reporters
+
+- [**vitest-llm-reporter**](https://github.com/hansjm10/vitest-llm-reporter) — Structured JSON test output optimized for LLM parsing, with streaming support.
+
 ### Utilities
 
 - [**@async-fn/vitest**](https://github.com/team-igniter-from-houston-inc/async-fn/tree/master/packages/vitest) — Test async functions with controlled resolution and chronological flow.
