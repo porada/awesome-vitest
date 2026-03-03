@@ -85,6 +85,7 @@
 ### Reporters
 
 - [**vitest-llm-reporter**](https://github.com/hansjm10/vitest-llm-reporter) — Structured JSON test output optimized for LLM parsing, with streaming support.
+- [**vitest-sonar-reporter**](https://github.com/AriPerkkio/vitest-sonar-reporter) — SonarQube reporter for Vitest.
 
 ### Browser Mode
 
