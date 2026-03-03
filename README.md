@@ -84,12 +84,12 @@
 
 ### Reporters
 
-- [**vitest-llm-reporter**](https://github.com/hansjm10/vitest-llm-reporter) — Structured JSON test output optimized for LLM parsing, with streaming support.
-- [**vitest-sonar-reporter**](https://github.com/AriPerkkio/vitest-sonar-reporter) — SonarQube reporter for Vitest.
+- [**vitest-llm-reporter**](https://github.com/hansjm10/vitest-llm-reporter) — Structured JSON output optimized for LLM parsing, with streaming support.
+- [**vitest-sonar-reporter**](https://github.com/AriPerkkio/vitest-sonar-reporter) — SonarQube reporter.
 
 ### Browser Mode
 
-- [**webcontainer-test**](https://github.com/stackblitz/webcontainer-test) — Run tests inside StackBlitz WebContainers.
+- [**@webcontainer/test**](https://github.com/stackblitz/webcontainer-test) — Run tests inside StackBlitz WebContainers.
 - [**vitest-environment-web-ext**](https://github.com/crxjs/vitest-environment-web-ext) — Dedicated testing environment for Chrome Extensions.
 
 ### Utilities
@@ -103,7 +103,7 @@
 
 ### Integrations
 
-- [**@cloudflare/vitest-pool-workers**](https://developers.cloudflare.com/workers/testing/vitest-integration/) — Run Vitest tests in a Cloudflare Workers runtime.
+- [**@cloudflare/vitest-pool-workers**](https://developers.cloudflare.com/workers/testing/vitest-integration/) — Run tests in a Cloudflare Workers runtime.
 - [**eslint-vitest-rule-tester**](https://github.com/antfu-collective/eslint-vitest-rule-tester) — Test ESLint rules using Vitest.
 
 ### Agent Skills
