@@ -89,6 +89,7 @@
 
 ### Browser Mode
 
+- [**webcontainer-test**](https://github.com/stackblitz/webcontainer-test) — Run tests inside StackBlitz WebContainers.
 - [**vitest-environment-web-ext**](https://github.com/crxjs/vitest-environment-web-ext) — Dedicated testing environment for Chrome Extensions.
 
 ### Utilities
