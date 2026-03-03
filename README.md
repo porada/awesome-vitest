@@ -89,6 +89,7 @@
 ### Browser Mode
 
 - [**vitest-environment-web-ext**](https://github.com/crxjs/vitest-environment-web-ext) — Dedicated testing environment for Chrome Extensions.
+- [**@webcontainer/test**](https://github.com/stackblitz/webcontainer-test) - Vitest plugin to test your applications and packages inside WebContainers.
 
 ### Utilities
 
