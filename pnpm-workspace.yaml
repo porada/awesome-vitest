@@ -4,3 +4,5 @@ onlyBuiltDependencies:
   - simple-git-hooks
 
 strictPeerDependencies: true
+
+trustPolicy: no-downgrade
