@@ -87,6 +87,7 @@
 
 - [**vitest-llm-reporter**](https://github.com/hansjm10/vitest-llm-reporter) — Structured JSON output optimized for LLM parsing, with streaming support.
 - [**vitest-sonar-reporter**](https://github.com/AriPerkkio/vitest-sonar-reporter) — SonarQube reporter.
+- [**vitest-teamcity-reporter**](https://github.com/eratio08/vitest-teamcity-reporter) — TeamCity reporter.
 
 ### Browser Mode
 
