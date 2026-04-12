@@ -1,7 +1,15 @@
 autoInstallPeers: false
 
+blockExoticSubdeps: true
+
 onlyBuiltDependencies:
   - simple-git-hooks
+
+overrides:
+  '@napi-rs/wasm-runtime': 1.1.1
+  '@prettier/plugin-oxc>oxc-parser': '*'
+
+strictDepBuilds: true
 
 strictPeerDependencies: true
 

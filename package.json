@@ -11,19 +11,19 @@
 	"engines": {
 		"node": ">=24"
 	},
-	"packageManager": "pnpm@10.30.3",
+	"packageManager": "pnpm@10.33.0",
 	"devDependencies": {
-		"@standard-config/prettier": "^1.11.3",
+		"@standard-config/prettier": "^1.12.0",
 		"prettier": "^3.8.2",
 		"simple-git-hooks": "^2.13.1"
 	},
 	"scripts": {
 		"fix": "pnpm format",
-		"format": "prettier --write --ignore-unknown .",
+		"format": "prettier --ignore-unknown --log-level=warn --write .",
 		"format:check": "prettier --check --ignore-unknown .",
 		"prepare": "simple-git-hooks"
 	},
 	"simple-git-hooks": {
-		"pre-commit": "pnpm run format:check"
+		"pre-commit": "pnpm format:check"
 	}
 }
