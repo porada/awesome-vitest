@@ -12,8 +12,8 @@ importers:
   .:
     devDependencies:
       '@standard-config/prettier':
-        specifier: ^1.12.0
-        version: 1.12.0(prettier@3.8.3)
+        specifier: ^1.12.1
+        version: 1.12.1(prettier@3.8.3)
       prettier:
         specifier: ^3.8.3
         version: 3.8.3
@@ -168,16 +168,16 @@ packages:
   '@oxc-project/types@0.125.0':
     resolution: {integrity: sha512-s9RKLJbRR+3kEFB3mmJVPWah3cZUAl0Jzmthx6Pb/QXnlNkRwTP75tK4uVahp/ifiiTmNYMXI1+NnGP1rNurXg==}
 
-  '@prettier/plugin-oxc@0.1.3':
-    resolution: {integrity: sha512-aABz3zIRilpWMekbt1FL1JVBQrQLR8L4Td2SRctECrWSsXGTNn/G1BqNSKCdbvQS1LWstAXfqcXzDki7GAAJyg==}
+  '@prettier/plugin-oxc@0.1.4':
+    resolution: {integrity: sha512-P/KX37tuR1R7xMHMakgzdWsRDMeze7SkwUcGQKbqQVSsJLW0q5kxax2dxEJgK4E4zIoMy7pG6UUE7x4al8AQeg==}
     engines: {node: '>=14'}
 
   '@reteps/dockerfmt@0.5.2':
     resolution: {integrity: sha512-Hbr7yen4fP5TxGM54ucXa4o5NwWXatJ6Bd9I8gp0PValYbI4Rug2Gu+rVv7K7o/efQc3F5ctqWJz47rYaa8zBw==}
     engines: {node: ^v12.20.0 || ^14.13.0 || >=16.0.0}
 
-  '@standard-config/prettier@1.12.0':
-    resolution: {integrity: sha512-N5Uz1oRwIx0AbPz2H8a3AqfRBmUFDWc20N0w2oWViZx5wRA9heNQJ9VAJEVvI/362Up6j0HlJn4Mo2WvHsBZJQ==}
+  '@standard-config/prettier@1.12.1':
+    resolution: {integrity: sha512-vUde8x02YWVpzcXS8kKV+BEeh12DhH0xu4CVRHdxa9slNY2WmJ3RnjOJFcZC4eYan5YbRVs9HDcEVe4EkeNKSQ==}
     engines: {node: '>=20'}
     peerDependencies:
       prettier: ^3.8.0
@@ -337,15 +337,15 @@ snapshots:
 
   '@oxc-project/types@0.125.0': {}
 
-  '@prettier/plugin-oxc@0.1.3':
+  '@prettier/plugin-oxc@0.1.4':
     dependencies:
       oxc-parser: 0.125.0
 
   '@reteps/dockerfmt@0.5.2': {}
 
-  '@standard-config/prettier@1.12.0(prettier@3.8.3)':
+  '@standard-config/prettier@1.12.1(prettier@3.8.3)':
     dependencies:
-      '@prettier/plugin-oxc': 0.1.3
+      '@prettier/plugin-oxc': 0.1.4
       prettier: 3.8.3
       prettier-plugin-expand-json: 1.0.4(prettier@3.8.3)
       prettier-plugin-markdown-html: 1.4.0(prettier@3.8.3)
