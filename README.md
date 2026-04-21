@@ -109,6 +109,7 @@
 - [**@cloudflare/vitest-pool-workers**](https://developers.cloudflare.com/workers/testing/vitest-integration/) — Run tests in a Cloudflare Workers runtime.
 - [**eslint-vitest-rule-tester**](https://github.com/antfu-collective/eslint-vitest-rule-tester) — Test ESLint rules using Vitest.
 - [**neon-testing**](https://github.com/starmode-base/neon-testing) — Test projects that rely on Neon Postgres databases.
+- [**vi-axe**](https://github.com/dhshah/vi-axe) — Run accessibility tests with Axe.
 - [**vitest-native**](https://github.com/danfry1/vitest-native) — Test React Native components.
 
 ### Agent Skills
