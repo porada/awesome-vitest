@@ -3,9 +3,8 @@ allowBuilds:
 
 autoInstallPeers: false
 
-blockExoticSubdeps: true
-
-strictDepBuilds: true
+minimumReleaseAgeExclude:
+  - '@standard-config/*'
 
 strictPeerDependencies: true
 

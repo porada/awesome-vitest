@@ -1,5 +1,6 @@
 {
 	"name": "awesome-vitest",
+	"version": "0.0.0",
 	"private": true,
 	"license": "CC0-1.0",
 	"author": {
@@ -11,7 +12,7 @@
 	"engines": {
 		"node": ">=24"
 	},
-	"packageManager": "pnpm@10.33.0",
+	"packageManager": "pnpm@11.0.9",
 	"devDependencies": {
 		"@standard-config/prettier": "^1.13.0",
 		"prettier": "^3.8.3",
