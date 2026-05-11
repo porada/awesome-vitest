@@ -111,6 +111,7 @@
 - [**neon-testing**](https://github.com/starmode-base/neon-testing) — Test projects that rely on Neon Postgres databases.
 - [**vi-axe**](https://github.com/dhshah/vi-axe) — Run accessibility tests with Axe.
 - [**vitest-native**](https://github.com/danfry1/vitest-native) — Test React Native components.
+- [**vitest-pool-assemblyscript**](https://github.com/themattspiral/vitest-pool-assemblyscript) — Run AssemblyScript tests in isolated WASM instances.
 
 ### Agent Skills
 
