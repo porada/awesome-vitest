@@ -6,6 +6,9 @@ autoInstallPeers: false
 minimumReleaseAgeExclude:
   - '@standard-config/*'
 
+overrides:
+  '@prettier/plugin-oxc': '-'
+
 strictPeerDependencies: true
 
 trustPolicy: no-downgrade
