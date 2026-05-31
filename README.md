@@ -113,6 +113,7 @@
 - [**eslint-vitest-rule-tester**](https://github.com/antfu-collective/eslint-vitest-rule-tester) — Test ESLint rules using Vitest.
 - [**neon-testing**](https://github.com/starmode-base/neon-testing) — Test projects that rely on Neon Postgres databases.
 - [**vi-axe**](https://github.com/dhshah/vi-axe) — Run accessibility tests with Axe.
+- [**vitest-accessibility-checker**](https://github.com/IBMa/equal-access/tree/main-4.x/vitest-accessibility-checker) — Run accessibility tests with IBM Equal Access Accessibility Checker.
 - [**vitest-native**](https://github.com/danfry1/vitest-native) — Test React Native components.
 - [**vitest-pool-assemblyscript**](https://github.com/themattspiral/vitest-pool-assemblyscript) — Run AssemblyScript tests in isolated WASM instances.
 
