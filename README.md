@@ -83,6 +83,16 @@
 - [**vitest-package-exports**](https://github.com/antfu/vitest-package-exports) — Guard exported APIs against unintended breaking changes.
 - [**vitest-react-serializer**](https://github.com/porada/vitest-react-serializer) — Serialize React components into formatted HTML.
 
+### Browser Mode
+
+- [**@webcontainer/test**](https://github.com/stackblitz/webcontainer-test) — Run tests inside StackBlitz WebContainers.
+- [**vitest-environment-web-ext**](https://github.com/crxjs/vitest-environment-web-ext) — Dedicated testing environment for Chrome Extensions.
+
+### Accessibility Testing
+
+- [**vi-axe**](https://github.com/chaance/vitest-axe) — Run accessibility tests with Axe.
+- [**vitest-accessibility-checker**](https://www.npmjs.com/package/vitest-accessibility-checker) — Run accessibility tests with IBM Equal Access Accessibility Checker.
+
 ### Reporters
 
 - [**@testream/vitest-reporter**](https://docs.testream.app/reporters/vitest) — Teststream reporter with Jira integration.
@@ -90,11 +100,6 @@
 - [**vitest-sonar-reporter**](https://github.com/AriPerkkio/vitest-sonar-reporter) — SonarQube reporter.
 - [**vitest-teamcity-reporter**](https://github.com/eratio08/vitest-teamcity-reporter) — TeamCity reporter.
 - [**vitest-tiny-reporter**](https://github.com/manbearwiz/vitest-tiny-reporter) — A minimal reporter with concise output.
-
-### Browser Mode
-
-- [**@webcontainer/test**](https://github.com/stackblitz/webcontainer-test) — Run tests inside StackBlitz WebContainers.
-- [**vitest-environment-web-ext**](https://github.com/crxjs/vitest-environment-web-ext) — Dedicated testing environment for Chrome Extensions.
 
 ### Utilities
 
@@ -112,8 +117,6 @@
 - [**@storybook/addon-vitest**](https://storybook.js.org/docs/writing-tests/integrations/vitest-addon) — Run Storybook stories as Vitest tests.
 - [**eslint-vitest-rule-tester**](https://github.com/antfu-collective/eslint-vitest-rule-tester) — Test ESLint rules using Vitest.
 - [**neon-testing**](https://github.com/starmode-base/neon-testing) — Test projects that rely on Neon Postgres databases.
-- [**vi-axe**](https://github.com/dhshah/vi-axe) — Run accessibility tests with Axe.
-- [**vitest-accessibility-checker**](https://github.com/IBMa/equal-access/tree/main-4.x/vitest-accessibility-checker) — Run accessibility tests with IBM Equal Access Accessibility Checker.
 - [**vitest-native**](https://github.com/danfry1/vitest-native) — Test React Native components.
 - [**vitest-pool-assemblyscript**](https://github.com/themattspiral/vitest-pool-assemblyscript) — Run AssemblyScript tests in isolated WASM instances.
 
