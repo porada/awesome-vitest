@@ -99,6 +99,7 @@
 
 - [**@testream/vitest-reporter**](https://docs.testream.app/reporters/vitest) — Teststream reporter with Jira integration.
 - [**vitest-llm-reporter**](https://github.com/hansjm10/vitest-llm-reporter) — Structured JSON output optimized for LLM parsing, with streaming support.
+- [**vitest-sentry-reporter**](https://github.com/cadesalaberry/vitest-sentry-reporter) — Sentry reporter for failed tests.
 - [**vitest-sonar-reporter**](https://github.com/AriPerkkio/vitest-sonar-reporter) — SonarQube reporter.
 - [**vitest-teamcity-reporter**](https://github.com/eratio08/vitest-teamcity-reporter) — TeamCity reporter.
 - [**vitest-tiny-reporter**](https://github.com/manbearwiz/vitest-tiny-reporter) — A minimal reporter with concise output.
