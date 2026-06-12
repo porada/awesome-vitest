@@ -3,6 +3,8 @@ allowBuilds:
 
 autoInstallPeers: false
 
+color: always
+
 overrides:
   '@prettier/plugin-oxc': '-'
 
