@@ -120,6 +120,7 @@
 - [**@storybook/addon-vitest**](https://storybook.js.org/docs/writing-tests/integrations/vitest-addon) — Run Storybook stories as Vitest tests.
 - [**eslint-vitest-rule-tester**](https://github.com/antfu-collective/eslint-vitest-rule-tester) — Test ESLint rules using Vitest.
 - [**neon-testing**](https://github.com/starmode-base/neon-testing) — Test projects that rely on Neon Postgres databases.
+- [**vitest-mongo**](https://github.com/danielpza/vitest-mongo) — Test projects that use MongoDB.
 - [**vitest-native**](https://github.com/danfry1/vitest-native) — Test React Native components.
 - [**vitest-pool-assemblyscript**](https://github.com/themattspiral/vitest-pool-assemblyscript) — Run AssemblyScript tests in isolated WASM instances.
 
