@@ -113,6 +113,7 @@
 - [**vitest-coverage-merge**](https://github.com/stevez/vitest-coverage-merge) — Merge coverage reports across `jsdom` and Browser Mode test runs.
 - [**vitest-fail-on-console**](https://github.com/thomasbrodusch/vitest-fail-on-console) — Fail tests on `console.error()`.
 - [**vitest-testdirs**](https://github.com/luxass/vitest-testdirs) — Run tests against isolated directory fixtures.
+- [**vitiate**](https://github.com/mjkoo/vitiate) — Run fuzz tests alongside unit tests.
 
 ### Integrations
 
