@@ -14,7 +14,7 @@
 	},
 	"packageManager": "pnpm@11.9.0",
 	"devDependencies": {
-		"@standard-config/prettier": "^1.13.3",
+		"@standard-config/prettier": "^1.14.0",
 		"prettier": "^3.9.0",
 		"simple-git-hooks": "^2.13.1"
 	},
