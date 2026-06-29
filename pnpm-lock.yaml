@@ -12,8 +12,8 @@ importers:
   .:
     devDependencies:
       '@standard-config/prettier':
-        specifier: ^1.14.0
-        version: 1.14.0(prettier@3.9.1)
+        specifier: ^1.15.0
+        version: 1.15.0(prettier@3.9.1)
       prettier:
         specifier: ^3.9.1
         version: 3.9.1
@@ -23,15 +23,36 @@ importers:
 
 packages:
 
-  '@reteps/dockerfmt@0.5.2':
-    resolution: {integrity: sha512-Hbr7yen4fP5TxGM54ucXa4o5NwWXatJ6Bd9I8gp0PValYbI4Rug2Gu+rVv7K7o/efQc3F5ctqWJz47rYaa8zBw==}
-    engines: {node: ^v12.20.0 || ^14.13.0 || >=16.0.0}
+  '@reteps/dockerfmt-darwin-arm64@0.5.4':
+    resolution: {integrity: sha512-urMqV+dQyvVI8/WrXwClX9e1PEyS35wFdwJjpZYmL09AkV4Io5U1oam8UBKK7jZk0+YsdF88ay6e86Kn6DIyQg==}
+    cpu: [arm64]
+    os: [darwin]
 
-  '@standard-config/prettier@1.14.0':
-    resolution: {integrity: sha512-OqHMcSaS/5rnRmvusxBmE766Plj4NTqliil+E085PgSJbTZikElTZUqQsc43XDEohPLW5g4tXjtL0T7VvCTE+g==}
+  '@reteps/dockerfmt-darwin-x64@0.5.4':
+    resolution: {integrity: sha512-fJORy6DFxbgDiMqxpLTPZlb5KUY0Vq0iR4NGnyKnuYZ9LdZUS508DK2kt/AJ87/jIKNV1qRG0JXG1Tc6xdvWjw==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@reteps/dockerfmt-linux-arm64@0.5.4':
+    resolution: {integrity: sha512-6pVakO06eXtDuvxy1Dnjs/gQyUoGGycle8PRSt5IFRwLi/AVaOQwfkfmW0WP8VH9wNUeti6BfJ3ksTn2G+XMxg==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@reteps/dockerfmt-linux-x64@0.5.4':
+    resolution: {integrity: sha512-OD6SIlUV1D4TgJoTui3FMBAZsGbTSPYsiT0BKhD6jMUcJb3GpFTa7dY9rL8rP9FUqfL7OTHVUGUOL4Rh64Olog==}
+    cpu: [x64]
+    os: [linux]
+
+  '@reteps/dockerfmt@0.5.4':
+    resolution: {integrity: sha512-HEGgXVVOb+JtGUSSzXl/XPKFIZjMDTUoHarCjaQdkY+cb5M9K/O3b5xm+x0IPIk3SfHurbc0bSgcFsQlzjitxA==}
+    engines: {node: ^v12.20.0 || ^14.13.0 || >=16.0.0}
+    hasBin: true
+
+  '@standard-config/prettier@1.15.0':
+    resolution: {integrity: sha512-EA+fQxLexPFrbboBBjDYY3nOn6oJLyKvw+pS8AlMWS99E6hKGgPBtK9vQLHgldT0+MTYABqyjB3GPzlOAIGu9Q==}
     engines: {node: '>=20'}
     peerDependencies:
-      prettier: ^3.8.0
+      prettier: ^3.9.0
 
   prettier-plugin-expand-json@1.0.5:
     resolution: {integrity: sha512-ggjy4JiQ03+m006D618vMYCKUwfQZVg2/+LHvCRtEHuz6BYK9HMutlBIJSDPdBDAZEP+50bL4/Tz83EdllOsEA==}
@@ -92,9 +113,26 @@ packages:
 
 snapshots:
 
-  '@reteps/dockerfmt@0.5.2': {}
+  '@reteps/dockerfmt-darwin-arm64@0.5.4':
+    optional: true
 
-  '@standard-config/prettier@1.14.0(prettier@3.9.1)':
+  '@reteps/dockerfmt-darwin-x64@0.5.4':
+    optional: true
+
+  '@reteps/dockerfmt-linux-arm64@0.5.4':
+    optional: true
+
+  '@reteps/dockerfmt-linux-x64@0.5.4':
+    optional: true
+
+  '@reteps/dockerfmt@0.5.4':
+    optionalDependencies:
+      '@reteps/dockerfmt-darwin-arm64': 0.5.4
+      '@reteps/dockerfmt-darwin-x64': 0.5.4
+      '@reteps/dockerfmt-linux-arm64': 0.5.4
+      '@reteps/dockerfmt-linux-x64': 0.5.4
+
+  '@standard-config/prettier@1.15.0(prettier@3.9.1)':
     dependencies:
       prettier: 3.9.1
       prettier-plugin-expand-json: 1.0.5(prettier@3.9.1)
@@ -118,7 +156,7 @@ snapshots:
 
   prettier-plugin-sh@0.18.1(prettier@3.9.1):
     dependencies:
-      '@reteps/dockerfmt': 0.5.2
+      '@reteps/dockerfmt': 0.5.4
       prettier: 3.9.1
       sh-syntax: 0.5.8
 
