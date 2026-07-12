@@ -15,3 +15,5 @@ updates:
     versioning-strategy: increase
     cooldown:
       default-days: 1
+      exclude:
+        - '@standard-config/*'

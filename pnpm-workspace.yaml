@@ -5,6 +5,9 @@ autoInstallPeers: false
 
 color: always
 
+minimumReleaseAgeExclude:
+  - '@standard-config/*'
+
 overrides:
   '@prettier/plugin-oxc': '-'
 
