@@ -117,6 +117,7 @@
 - [**executable-stories-vitest**](https://github.com/jagreehal/executable-stories) — Test user stories in a Cucumber-style format.
 - [**vitest-affected**](https://github.com/craigvandotcom/vitest-affected) — Run only tests affected by changed files.
 - [**vitest-fail-on-console**](https://github.com/thomasbrodusch/vitest-fail-on-console) — Fail tests on `console.error()`.
+- [**vitest-plugin-random-seed**](https://github.com/aklinker1/vitest-plugin-random-seed) — Run tests with reproducible random data.
 - [**vitest-testdirs**](https://github.com/luxass/vitest-testdirs) — Run tests against isolated directory fixtures.
 - [**vitiate**](https://github.com/mjkoo/vitiate) — Run fuzz tests alongside unit tests.
 
