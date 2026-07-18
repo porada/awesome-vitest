@@ -113,6 +113,7 @@
 - [**@raegen/vite-plugin-vitest-cache**](https://github.com/raegen/vite-plugin-vitest-cache) — Improve test performance through caching.
 - [**executable-stories-vitest**](https://github.com/jagreehal/executable-stories) — Test user stories in a Cucumber-style format.
 - [**vitest-affected**](https://github.com/craigvandotcom/vitest-affected) — Run only tests affected by changed files.
+- [**Vitest Config Generator**](https://draftkit.co/dev-launch-pack/vitest-config-generator.html) — Browser-based generator for `vitest.config.ts` (environment, coverage provider/thresholds, reporters, pool, setup files, aliases, browser mode) with a matching `npm install` command.
 - [**vitest-fail-on-console**](https://github.com/thomasbrodusch/vitest-fail-on-console) — Fail tests on `console.error()`.
 - [**vitest-plugin-random-seed**](https://github.com/aklinker1/vitest-plugin-random-seed) — Run tests with reproducible random data.
 - [**vitest-testdirs**](https://github.com/luxass/vitest-testdirs) — Run tests against isolated directory fixtures.
