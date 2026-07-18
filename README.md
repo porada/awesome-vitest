@@ -75,6 +75,7 @@
 - [**@cronn/vitest-file-snapshots**](https://github.com/cronn/file-snapshots/tree/main/packages/vitest-file-snapshots) — Snapshot assertions for specific file formats.
 - [**path-serializer**](https://github.com/rstackjs/path-serializer) — Serialize file paths into consistent, cross-platform strings.
 - [**vitest-ansi-serializer**](https://github.com/43081j/vitest-ansi-serializer) — Serialize ANSI escape sequences into human-readable strings.
+- [**vitest-directory-snapshot**](https://github.com/XaveScor/vitest-directory-snapshot) — Snapshot directory trees.
 - [**vitest-image-snapshot**](https://github.com/wgsl-tooling-wg/wesl-js/tree/main/tools/packages/vitest-image-snapshot) — Visual regression testing for images.
 - [**vitest-package-exports**](https://github.com/antfu/vitest-package-exports) — Guard exported APIs against unintended breaking changes.
 - [**vitest-react-serializer**](https://github.com/porada/vitest-react-serializer) — Serialize React components into formatted HTML.
