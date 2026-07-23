@@ -100,6 +100,7 @@
 - [**vitest-sentry-reporter**](https://github.com/cadesalaberry/vitest-sentry-reporter) — Sentry reporter for failed tests.
 - [**vitest-sonar-reporter**](https://github.com/AriPerkkio/vitest-sonar-reporter) — SonarQube reporter.
 - [**vitest-teamcity-reporter**](https://github.com/eratio08/vitest-teamcity-reporter) — TeamCity reporter.
+- [**vitest-time-stats-reporter**](https://github.com/crcatala/vitest-time-stats-reporter) — Reporter for test execution-time statistics.
 - [**vitest-tiny-reporter**](https://github.com/manbearwiz/vitest-tiny-reporter) — A minimal reporter with concise output.
 
 ### Coverage
