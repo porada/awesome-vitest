@@ -78,6 +78,7 @@
 - [**vitest-directory-snapshot**](https://github.com/XaveScor/vitest-directory-snapshot) — Snapshot directory trees.
 - [**vitest-image-snapshot**](https://github.com/wgsl-tooling-wg/wesl-js/tree/main/tools/packages/vitest-image-snapshot) — Visual regression testing for images.
 - [**vitest-package-exports**](https://github.com/antfu/vitest-package-exports) — Guard exported APIs against unintended breaking changes.
+- [**vitest-pdf-snapshot**](https://github.com/dapotatoman/vitest-pdf-snapshot) — Visual regression testing for PDF files.
 - [**vitest-react-serializer**](https://github.com/porada/vitest-react-serializer) — Serialize React components into formatted HTML.
 - [**vitest-snap**](https://github.com/Odonno/vitest-snap) — Snapshot data into text, JSON, YAML, and Markdown files.
 - [**vitest-snapshot-tools**](https://github.com/atombarel/vitest-snapshot-tools) — Review snapshot updates in a local UI and selectively apply them.
