@@ -133,6 +133,7 @@
 - [**eslint-vitest-rule-tester**](https://github.com/antfu-collective/eslint-vitest-rule-tester) — Test ESLint rules using Vitest.
 - [**neon-testing**](https://github.com/starmode-base/neon-testing) — Test projects that rely on Neon Postgres databases.
 - [**rescript-vitest**](https://github.com/cometkim/rescript-vitest) — Write tests in ReScript.
+- [**vitest-groq**](https://github.com/sanity-labs/vitest-groq) — Test GROQ queries and execution plans.
 - [**vitest-mongo**](https://github.com/danielpza/vitest-mongo) — Test projects that use MongoDB.
 - [**vitest-native**](https://github.com/danfry1/vitest-native) — Test React Native components.
 - [**vitest-pool-assemblyscript**](https://github.com/themattspiral/vitest-pool-assemblyscript) — Run AssemblyScript tests in isolated WASM instances.
