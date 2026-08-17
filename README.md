@@ -132,6 +132,7 @@
 - [**@logtape/testing-vitest**](https://github.com/dahlia/logtape/tree/main/packages/testing-vitest) — Report LogTape logs when tests fail.
 - [**@storybook/addon-vitest**](https://storybook.js.org/docs/writing-tests/integrations/vitest-addon) — Run Storybook stories as Vitest tests.
 - [**eslint-vitest-rule-tester**](https://github.com/antfu-collective/eslint-vitest-rule-tester) — Test ESLint rules using Vitest.
+- [**mcp-vitest**](https://github.com/nixrajput/mcp-vitest) — Test MCP servers.
 - [**neon-testing**](https://github.com/starmode-base/neon-testing) — Test projects that rely on Neon Postgres databases.
 - [**rescript-vitest**](https://github.com/cometkim/rescript-vitest) — Write tests in ReScript.
 - [**vitest-expo**](https://github.com/niondigital/vitest-expo) — Test Expo projects.
