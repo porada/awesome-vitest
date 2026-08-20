@@ -116,6 +116,7 @@
 - [**@async-fn/vitest**](https://github.com/team-igniter-from-houston-inc/async-fn/tree/master/packages/vitest) — Test async functions with controlled resolution and chronological flow.
 - [**@epure/vitest**](https://github.com/epuremethod/vitest) — Run Gherkin scenarios and structured YAML fixtures as Vitest tests.
 - [**@raegen/vite-plugin-vitest-cache**](https://github.com/raegen/vite-plugin-vitest-cache) — Improve test performance through caching.
+- [**@typescript-guy/fn-monitor**](https://github.com/The-BigMan-tech/fn-monitor) — Intercept, mutate, and trace function execution at the AST level to assist black-box testing.
 - [**@vitejs/devtools**](https://devtools.vite.dev/vitest/) — Run and watch tests from Vite DevTools.
 - [**executable-stories-vitest**](https://github.com/jagreehal/executable-stories) — Test user stories in a Cucumber-style format.
 - [**vitest-affected**](https://github.com/craigvandotcom/vitest-affected) — Run only tests affected by changed files.
