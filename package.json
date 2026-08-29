@@ -16,7 +16,7 @@
 	"devDependencies": {
 		"@standard-config/prettier": "^1.21.0",
 		"prettier": "^3.9.6",
-		"simple-git-hooks": "^2.13.1"
+		"simple-git-hooks": "^2.14.0"
 	},
 	"scripts": {
 		"fix": "pnpm format",
