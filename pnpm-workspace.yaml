@@ -5,6 +5,8 @@ autoInstallPeers: false
 
 color: always
 
+engineStrict: true
+
 minimumReleaseAgeExclude:
   - '@standard-config/*'
 
