@@ -136,6 +136,7 @@
 - [**mcp-vitest**](https://github.com/nixrajput/mcp-vitest) — Test MCP servers.
 - [**neon-testing**](https://github.com/starmode-base/neon-testing) — Test projects that rely on Neon Postgres databases.
 - [**rescript-vitest**](https://github.com/cometkim/rescript-vitest) — Write tests in ReScript.
+- [**vitest-bats**](https://github.com/spencerbeggs/vitest-bats) — Run BATS tests through Vitest.
 - [**vitest-expo**](https://github.com/niondigital/vitest-expo) — Test Expo projects.
 - [**vitest-groq**](https://github.com/sanity-labs/vitest-groq) — Test GROQ queries and execution plans.
 - [**vitest-mongo**](https://github.com/danielpza/vitest-mongo) — Test projects that use MongoDB.
