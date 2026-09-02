@@ -98,7 +98,7 @@
 
 ### Reporters
 
-- [**@qualflare/vitest**](https://github.com/Qualflare/qualflare-vitest) — Reports results, retries, flakiness and nested steps to the Qualflare test-management platform. Makes no network calls; a separate CLI step uploads, so sharded runs merge into one report.
+- [**@qualflare/vitest**](https://github.com/Qualflare/qualflare-vitest) — Qualflare reporter.
 - [**@testream/vitest-reporter**](https://docs.testream.app/reporters/vitest) — Teststream reporter with Jira integration.
 - [**vitest-llm-reporter**](https://github.com/hansjm10/vitest-llm-reporter) — Structured JSON output optimized for LLM parsing, with streaming support.
 - [**vitest-md-reporter**](https://github.com/robertozmc/vitest-md-reporter) — Generate Markdown test reports for CI and coding agents.
