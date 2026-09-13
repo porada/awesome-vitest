@@ -88,6 +88,7 @@
 
 - [**@augeo/assay**](https://github.com/AugeoCorp/assay) — Test Shopify Liquid templates with Vitest Browser Mode.
 - [**@webcontainer/test**](https://github.com/stackblitz/webcontainer-test) — Run tests inside StackBlitz WebContainers.
+- [**vitest-browser-three**](https://github.com/linbingquan/vitest-browser-three) — Dedicated GPU testing utilities for Three.js.
 - [**vitest-environment-web-ext**](https://github.com/crxjs/vitest-environment-web-ext) — Dedicated testing environment for Chrome Extensions.
 
 ### Accessibility Testing
