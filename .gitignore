@@ -1,5 +1,2 @@
-.agent-*
 .DS_Store
-.pnpm-store
 node_modules
-package-lock.json
