@@ -134,6 +134,7 @@
 - [**@evolu/vitest**](https://github.com/evoluhq/evolu/tree/main/packages/vitest) — Test Evolu projects.
 - [**@logtape/testing-vitest**](https://github.com/dahlia/logtape/tree/main/packages/testing-vitest) — Report LogTape logs when tests fail.
 - [**@storybook/addon-vitest**](https://storybook.js.org/docs/writing-tests/integrations/vitest-addon) — Run Storybook stories as Vitest tests.
+- [**ember-vitest**](https://github.com/NullVoxPopuli/ember-vitest) — Test Ember projects.
 - [**eslint-vitest-rule-tester**](https://github.com/antfu-collective/eslint-vitest-rule-tester) — Test ESLint rules using Vitest.
 - [**mcp-vitest**](https://github.com/nixrajput/mcp-vitest) — Test MCP servers.
 - [**neon-testing**](https://github.com/starmode-base/neon-testing) — Test projects that rely on Neon Postgres databases.
