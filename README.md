@@ -45,7 +45,7 @@
 ### Guides
 
 - [Getting Started](https://vitest.dev/guide/)
-- [Migrating From Jest](https://vitest.dev/guide/migration#jest)
+- [Migrating From Jest](https://vitest.dev/guide/migration/jest)
 - [Browser Mode](https://vitest.dev/guide/browser/)
 
 ### Community
