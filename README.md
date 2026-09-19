@@ -112,6 +112,7 @@
 ### Coverage
 
 - [**nextcov**](https://github.com/stevez/nextcov) — Merge E2E coverage reports from Next.js and Vite applications with Vitest coverage.
+- [**supercov**](https://github.com/supercorp-ai/supercov) — Code quality and test coverage for coding agents: Jev scores each source file so the agent knows what to fix first.
 - [**vitest-coverage-merge**](https://github.com/stevez/vitest-coverage-merge) — Merge coverage reports across `jsdom` and Browser Mode test runs.
 
 ### Utilities
