@@ -15,7 +15,7 @@
 	"packageManager": "pnpm@12.4.2",
 	"devDependencies": {
 		"@standard-config/prettier": "^1.21.1",
-		"prettier": "^3.9.7",
+		"prettier": "^3.9.8",
 		"simple-git-hooks": "^2.14.0"
 	},
 	"scripts": {
