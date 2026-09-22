@@ -80,16 +80,22 @@
 - [**vitest-package-exports**](https://github.com/antfu/vitest-package-exports) — Guard exported APIs against unintended breaking changes.
 - [**vitest-pdf-snapshot**](https://github.com/dapotatoman/vitest-pdf-snapshot) — Visual regression testing for PDF files.
 - [**vitest-react-serializer**](https://github.com/porada/vitest-react-serializer) — Serialize React components into formatted HTML.
+- [**vitest-screenshot**](https://github.com/bhouston/vitest-gpu/tree/main/packages/vitest-screenshot) — Compare rendered output against screenshot baselines.
 - [**vitest-snap**](https://github.com/Odonno/vitest-snap) — Snapshot data into text, JSON, YAML, and Markdown files.
 - [**vitest-snapshot-tools**](https://github.com/atombarel/vitest-snapshot-tools) — Review snapshot updates in a local UI and selectively apply them.
 - [**vue3-snapshot-serializer**](https://github.com/tjw-lint/vue3-snapshot-serializer) — Serialize Vue 3 components into formatted HTML.
+
+### Environments
+
+- [**vitest-environment-web-ext**](https://github.com/crxjs/vitest-environment-web-ext) — Dedicated testing environment for Chrome Extensions.
+- [**vitest-environment-webgl-node**](https://github.com/bhouston/vitest-gpu/tree/main/packages/vitest-environment-webgl-node) — Dedicated headless WebGL environment.
+- [**vitest-environment-webgpu-node**](https://github.com/bhouston/vitest-gpu/tree/main/packages/vitest-environment-webgpu-node) — Dedicated headless WebGPU environment.
 
 ### Browser Mode
 
 - [**@augeo/assay**](https://github.com/AugeoCorp/assay) — Test Shopify Liquid templates with Vitest Browser Mode.
 - [**@webcontainer/test**](https://github.com/stackblitz/webcontainer-test) — Run tests inside StackBlitz WebContainers.
 - [**vitest-browser-three**](https://github.com/linbingquan/vitest-browser-three) — Dedicated GPU testing utilities for Three.js.
-- [**vitest-environment-web-ext**](https://github.com/crxjs/vitest-environment-web-ext) — Dedicated testing environment for Chrome Extensions.
 
 ### Accessibility Testing
 
