@@ -12,7 +12,7 @@
 	"engines": {
 		"node": ">=24"
 	},
-	"packageManager": "pnpm@12.4.2",
+	"packageManager": "pnpm@12.5.1",
 	"devDependencies": {
 		"@standard-config/prettier": "^1.21.1",
 		"prettier": "^3.9.8",
