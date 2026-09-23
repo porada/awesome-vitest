@@ -1,6 +1,8 @@
 allowBuilds:
   simple-git-hooks: true
 
+autoDedupe: true
+
 autoInstallPeers: false
 
 color: always

@@ -11,5 +11,9 @@
 				]
 			}
 		}
+	],
+	"read_only_files": [
+		".editorconfig",
+		"..."
 	]
 }
