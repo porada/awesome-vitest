@@ -87,6 +87,7 @@
 
 ### Environments
 
+- [**vitest-environment-happy-dom-extended**](https://github.com/laststance/happy-dom-extended/tree/main/packages/vitest-happy-dom-extended) — Dedicated Happy DOM environment with extended Web API support.
 - [**vitest-environment-web-ext**](https://github.com/crxjs/vitest-environment-web-ext) — Dedicated testing environment for Chrome Extensions.
 - [**vitest-environment-webgl-node**](https://github.com/bhouston/vitest-gpu/tree/main/packages/vitest-environment-webgl-node) — Dedicated headless WebGL environment.
 - [**vitest-environment-webgpu-node**](https://github.com/bhouston/vitest-gpu/tree/main/packages/vitest-environment-webgpu-node) — Dedicated headless WebGPU environment.
