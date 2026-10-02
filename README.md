@@ -143,6 +143,7 @@
 - [**@evolu/vitest**](https://github.com/evoluhq/evolu/tree/main/packages/vitest) — Test Evolu projects.
 - [**@logtape/testing-vitest**](https://github.com/dahlia/logtape/tree/main/packages/testing-vitest) — Report LogTape logs when tests fail.
 - [**@storybook/addon-vitest**](https://storybook.js.org/docs/writing-tests/integrations/vitest-addon) — Run Storybook stories as Vitest tests.
+- [**@termless/test**](https://github.com/beorn/termless) — Test terminal applications across multiple terminal emulators.
 - [**@wojtekmaj/vitest-react-native**](https://github.com/wojtekmaj/vitest-react-native) — Test React Native projects with the official test mocks.
 - [**ember-vitest**](https://github.com/NullVoxPopuli/ember-vitest) — Test Ember projects.
 - [**eslint-vitest-rule-tester**](https://github.com/antfu-collective/eslint-vitest-rule-tester) — Test ESLint rules using Vitest.
