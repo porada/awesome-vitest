@@ -106,6 +106,7 @@
 
 ### Reporters
 
+- [**@mergifyio/vitest**](https://github.com/Mergifyio/mergify-ci-integrations/tree/main/clients/ts/packages/vitest) — Mergify CI Insights reporter with flaky test detection and quarantine.
 - [**@qualflare/vitest**](https://github.com/Qualflare/qualflare-vitest) — Qualflare reporter.
 - [**@testream/vitest-reporter**](https://docs.testream.app/reporters/vitest) — Teststream reporter with Jira integration.
 - [**power-mode-reporter.vitest**](https://github.com/nomasprime/power-mode-reporter.vitest) — Customizable dot reporter.
