@@ -127,6 +127,7 @@
 ### Utilities
 
 - [**@async-fn/vitest**](https://github.com/team-igniter-from-houston-inc/async-fn/tree/master/packages/vitest) — Test async functions with controlled resolution and chronological flow.
+- [**@describe-me/vitest**](https://github.com/grzehub/describe-me) — Generate component documentation from existing tests.
 - [**@epure/vitest**](https://github.com/epuremethod/vitest) — Run Gherkin scenarios and structured YAML fixtures as Vitest tests.
 - [**@raegen/vite-plugin-vitest-cache**](https://github.com/raegen/vite-plugin-vitest-cache) — Improve test performance through caching.
 - [**@vitejs/devtools**](https://devtools.vite.dev/vitest/) — Run and watch tests from Vite DevTools.
