@@ -116,20 +116,17 @@
 - [**vitest-sonar-reporter**](https://github.com/AriPerkkio/vitest-sonar-reporter) — SonarQube reporter.
 - [**vitest-teamcity-reporter**](https://github.com/eratio08/vitest-teamcity-reporter) — TeamCity reporter.
 - [**vitest-time-stats-reporter**](https://github.com/crcatala/vitest-time-stats-reporter) — Reporter for test execution-time statistics.
-- [**vitest-tiny-reporter**](https://github.com/manbearwiz/vitest-tiny-reporter) — A minimal reporter with concise output.
 
 ### Coverage
 
 - [**nextcov**](https://github.com/stevez/nextcov) — Merge E2E coverage reports from Next.js and Vite applications with Vitest coverage.
 - [**supercov**](https://github.com/supercorp-ai/supercov) — Measure per-test coverage, including MC/DC.
-- [**vitest-coverage-merge**](https://github.com/stevez/vitest-coverage-merge) — Merge coverage reports across `jsdom` and Browser Mode test runs.
 
 ### Utilities
 
 - [**@async-fn/vitest**](https://github.com/team-igniter-from-houston-inc/async-fn/tree/master/packages/vitest) — Test async functions with controlled resolution and chronological flow.
 - [**@describe-me/vitest**](https://github.com/grzehub/describe-me) — Generate component documentation from existing tests.
 - [**@epure/vitest**](https://github.com/epuremethod/vitest) — Run Gherkin scenarios and structured YAML fixtures as Vitest tests.
-- [**@raegen/vite-plugin-vitest-cache**](https://github.com/raegen/vite-plugin-vitest-cache) — Improve test performance through caching.
 - [**@vitejs/devtools**](https://devtools.vite.dev/vitest/) — Run and watch tests from Vite DevTools.
 - [**executable-stories-vitest**](https://github.com/jagreehal/executable-stories) — Test user stories in a Cucumber-style format.
 - [**vitest-affected**](https://github.com/craigvandotcom/vitest-affected) — Run only tests affected by changed files.
@@ -142,7 +139,6 @@
 ### Integrations
 
 - [**@cloudflare/vitest-pool-workers**](https://developers.cloudflare.com/workers/testing/vitest-integration/) — Run tests in a Cloudflare Workers runtime.
-- [**@evolu/vitest**](https://github.com/evoluhq/evolu/tree/main/packages/vitest) — Test Evolu projects.
 - [**@logtape/testing-vitest**](https://github.com/dahlia/logtape/tree/main/packages/testing-vitest) — Report LogTape logs when tests fail.
 - [**@storybook/addon-vitest**](https://storybook.js.org/docs/writing-tests/integrations/vitest-addon) — Run Storybook stories as Vitest tests.
 - [**@termless/test**](https://github.com/beorn/termless) — Test terminal applications across multiple terminal emulators.
