@@ -76,13 +76,13 @@
 - [**path-serializer**](https://github.com/rstackjs/path-serializer) — Serialize file paths into consistent, cross-platform strings.
 - [**vitest-ansi-serializer**](https://github.com/43081j/vitest-ansi-serializer) — Serialize ANSI escape sequences into human-readable strings.
 - [**vitest-directory-snapshot**](https://github.com/XaveScor/vitest-directory-snapshot) — Snapshot directory trees.
-- [**vitest-image-snapshot**](https://github.com/wgsl-tooling-wg/wesl-js/tree/main/tools/packages/vitest-image-snapshot) — Visual regression testing for images.
+- [**vitest-image-snapshot**](https://github.com/webgpu-tools/wesl-js/tree/main/packages/vitest-image-snapshot) — Visual regression testing for images.
 - [**vitest-package-exports**](https://github.com/antfu/vitest-package-exports) — Guard exported APIs against unintended breaking changes.
 - [**vitest-pdf-snapshot**](https://github.com/dapotatoman/vitest-pdf-snapshot) — Visual regression testing for PDF files.
 - [**vitest-react-serializer**](https://github.com/porada/vitest-react-serializer) — Serialize React components into formatted HTML.
 - [**vitest-screenshot**](https://github.com/bhouston/vitest-gpu/tree/main/packages/vitest-screenshot) — Compare rendered output against screenshot baselines.
 - [**vitest-snap**](https://github.com/Odonno/vitest-snap) — Snapshot data into text, JSON, YAML, and Markdown files.
-- [**vitest-snapshot-tools**](https://github.com/atombarel/vitest-snapshot-tools) — Review snapshot updates in a local UI and selectively apply them.
+- [**vitest-snapshot-tools**](https://github.com/atombarel/vitest-snapshot-tools/tree/main/packages/vitest-snapshot-tools) — Review snapshot updates in a local UI and selectively apply them.
 - [**vue3-snapshot-serializer**](https://github.com/tjw-lint/vue3-snapshot-serializer) — Serialize Vue 3 components into formatted HTML.
 
 ### Environments
@@ -101,14 +101,14 @@
 ### Accessibility Testing
 
 - [**@accesslint/vitest**](https://github.com/AccessLint/accesslint/tree/main/vitest) — Run accessibility tests with AccessLint.
-- [**vi-axe**](https://github.com/chaance/vitest-axe) — Run accessibility tests with Axe.
+- [**vi-axe**](https://github.com/dhshah/vi-axe/tree/main/packages/vi-axe) — Run accessibility tests with Axe.
 - [**vitest-accessibility-checker**](https://www.npmjs.com/package/vitest-accessibility-checker) — Run accessibility tests with IBM Equal Access Accessibility Checker.
 
 ### Reporters
 
 - [**@mergifyio/vitest**](https://github.com/Mergifyio/mergify-ci-integrations/tree/main/clients/ts/packages/vitest) — Mergify CI Insights reporter with flaky test detection and quarantine.
 - [**@qualflare/vitest**](https://github.com/Qualflare/qualflare-vitest) — Qualflare reporter.
-- [**@testream/vitest-reporter**](https://docs.testream.app/reporters/vitest) — Teststream reporter with Jira integration.
+- [**@testream/vitest-reporter**](https://docs.testream.app/reporters/vitest) — Testream reporter with Jira integration.
 - [**power-mode-reporter.vitest**](https://github.com/nomasprime/power-mode-reporter.vitest) — Customizable dot reporter.
 - [**vitest-llm-reporter**](https://github.com/hansjm10/vitest-llm-reporter) — Structured JSON output optimized for LLM parsing, with streaming support.
 - [**vitest-md-reporter**](https://github.com/robertozmc/vitest-md-reporter) — Generate Markdown test reports for CI and coding agents.
@@ -125,10 +125,10 @@
 ### Utilities
 
 - [**@async-fn/vitest**](https://github.com/team-igniter-from-houston-inc/async-fn/tree/master/packages/vitest) — Test async functions with controlled resolution and chronological flow.
-- [**@describe-me/vitest**](https://github.com/grzehub/describe-me) — Generate component documentation from existing tests.
+- [**@describe-me/vitest**](https://github.com/grzehub/describe-me/tree/main/packages/vitest) — Generate component documentation from existing tests.
 - [**@epure/vitest**](https://github.com/epuremethod/vitest) — Run Gherkin scenarios and structured YAML fixtures as Vitest tests.
-- [**@vitejs/devtools**](https://devtools.vite.dev/vitest/) — Run and watch tests from Vite DevTools.
-- [**executable-stories-vitest**](https://github.com/jagreehal/executable-stories) — Test user stories in a Cucumber-style format.
+- [**@vitejs/devtools-vitest**](https://devtools.vite.dev/vitest/) — Run and watch tests from Vite DevTools.
+- [**executable-stories-vitest**](https://github.com/jagreehal/executable-stories/tree/main/packages/executable-stories-vitest) — Test user stories in a Cucumber-style format.
 - [**vitest-affected**](https://github.com/craigvandotcom/vitest-affected) — Run only tests affected by changed files.
 - [**vitest-fail-on-console**](https://github.com/thomasbrodusch/vitest-fail-on-console) — Fail tests on `console.error()`.
 - [**vitest-git-trigger-patterns**](https://github.com/manbearwiz/vitest-git-trigger-patterns) — Map changed files to specific tests during `--changed` runs.
@@ -152,7 +152,7 @@
 - [**vitest-expo**](https://github.com/niondigital/vitest-expo) — Test Expo projects.
 - [**vitest-groq**](https://github.com/sanity-labs/vitest-groq) — Test GROQ queries and execution plans.
 - [**vitest-mongo**](https://github.com/danielpza/vitest-mongo) — Test projects that use MongoDB.
-- [**vitest-native**](https://github.com/danfry1/vitest-native) — Test React Native components.
+- [**vitest-native**](https://github.com/danfry1/vitest-native/tree/main/packages/vitest-native) — Test React Native components.
 - [**vitest-pool-assemblyscript**](https://github.com/themattspiral/vitest-pool-assemblyscript) — Run AssemblyScript tests in isolated WASM instances.
 
 ### Agent Skills
