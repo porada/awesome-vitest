@@ -1,23 +1,33 @@
 # Contributing Guidelines
 
-Submissions are welcome! Here’s a few things to keep in mind:
+Submissions are welcome!
 
-- **One resource per submission.**
+## Quick Start
 
-    Submit tools you’ve actually used and can vouch for.
+Use the included [agent skill](.agents/skills/add-entry) to assess a resource and add it to the list if it’s a good fit. Clone the repository, then ask your agent:
 
-- **Vitest resources only.**
+```
+/add-entry <resource-url>
+```
+
+## Submission Standards
+
+- **Include one resource per submission.**
+
+    Submit a tool you’ve actually used and can vouch for.
+
+- **Choose Vitest-specific resources.**
 
     Jest packages compatible with Vitest don’t qualify.
 
-- **Sort the item alphabetically within its section.**
+- **Add your entry in alphabetical order.**
 
-    Submission dates don’t matter.
+    Place it within the relevant section, regardless of submission date.
 
-- **Use a concise description.**
+- **Keep your description concise.**
 
-    Avoid `Vitest plugin`, `Vitest tests`, `for Vitest`, or similar wherever possible—it’s implied.
+    Vitest support is already implied. Avoid phrases such as `Vitest plugin`, `Vitest tests`, or `for Vitest`.
 
-- **Keep your pull request editable.**
+- **Allow maintainer edits.**
 
-    The final format is still evolving, so make sure `Allow edits by maintainers` is enabled. This won’t affect your contribution credit.
+    Enable `Allow edits by maintainers` on your pull request. This won’t affect your contribution credit.
