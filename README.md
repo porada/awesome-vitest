@@ -179,16 +179,16 @@
     <a href="https://github.com/porada/awesome-vitest">
         <picture>
             <source
-                srcset=".github/assets/awesome-vitest-dark-scheme-90@3x.png"
+                srcset=".github/assets/awesome-vitest-dark-scheme-100@3x.png"
                 media="(prefers-color-scheme: dark)"
             />
             <source
-                srcset=".github/assets/awesome-vitest-light-scheme-90@3x.png"
+                srcset=".github/assets/awesome-vitest-light-scheme-100@3x.png"
                 media="(prefers-color-scheme: light)"
             />
             <img
-                src=".github/assets/awesome-vitest-light-scheme-90@3x.png"
-                width="90"
+                src=".github/assets/awesome-vitest-light-scheme-100@3x.png"
+                width="100"
                 alt=""
             />
         </picture>
