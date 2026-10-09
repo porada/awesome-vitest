@@ -162,8 +162,12 @@
 
 - [**antfu/skills**](https://github.com/antfu/skills) — Collection of agent skills by Anthony Fu, including Vitest.
 
+<div>&nbsp;</div>
+
 ---
 
+<div>&nbsp;</div>
+<div>&nbsp;</div>
 <div>&nbsp;</div>
 
 <p align="center">
@@ -186,6 +190,6 @@
     </a>
 </p>
 
-<p align="center">Awesome Vitest is curated by&nbsp;<a href="https://dom.engineering">Dom&nbsp;Porada</a>.</p>
+<p align="center">Awesome Vitest is curated by&nbsp;<a href="https://dom.engineering">Dom&nbsp;Porada</a>.<br />Licensed under <code>CC0-1.0</code>.</p>
 
-<p align="center">Licensed under <code>CC0-1.0</code>.</p>
+<div>&nbsp;</div>
