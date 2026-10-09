@@ -2,15 +2,15 @@
     <a href="https://github.com/porada/awesome-vitest">
         <picture>
             <source
-                srcset=".github/assets/awesome-vitest-dark-scheme@3x.png"
+                srcset=".github/assets/awesome-vitest-dark-scheme-520@3x.png"
                 media="(prefers-color-scheme: dark)"
             />
             <source
-                srcset=".github/assets/awesome-vitest-light-scheme@3x.png"
+                srcset=".github/assets/awesome-vitest-light-scheme-520@3x.png"
                 media="(prefers-color-scheme: light)"
             />
             <img
-                src=".github/assets/awesome-vitest-light-scheme@3x.png"
+                src=".github/assets/awesome-vitest-light-scheme-520@3x.png"
                 width="520"
                 alt=""
             />
@@ -164,7 +164,32 @@
 
 <div>&nbsp;</div>
 
-## Related Lists
+---
 
-- [Awesome Vite](https://github.com/vitejs/awesome-vite)
-- [Awesome Jest](https://github.com/jest-community/awesome-jest)
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+
+<p align="center">
+    <a href="https://github.com/porada/awesome-vitest">
+        <picture>
+            <source
+                srcset=".github/assets/awesome-vitest-dark-scheme-90@3x.png"
+                media="(prefers-color-scheme: dark)"
+            />
+            <source
+                srcset=".github/assets/awesome-vitest-light-scheme-90@3x.png"
+                media="(prefers-color-scheme: light)"
+            />
+            <img
+                src=".github/assets/awesome-vitest-light-scheme-90@3x.png"
+                width="90"
+                alt=""
+            />
+        </picture>
+    </a>
+</p>
+
+<p align="center">Awesome Vitest is curated by&nbsp;<a href="https://dom.engineering">Dom&nbsp;Porada</a>.<br />Licensed under <code>CC0-1.0</code>.</p>
+
+<div>&nbsp;</div>
