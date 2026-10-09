@@ -155,6 +155,7 @@
 - [**vitest-groq**](https://github.com/sanity-labs/vitest-groq) — Test GROQ queries and execution plans.
 - [**vitest-mongo**](https://github.com/danielpza/vitest-mongo) — Start MongoDB test instances and expose their connection URI.
 - [**vitest-native**](https://github.com/danfry1/vitest-native/tree/main/packages/vitest-native) — Test React Native components using real framework code with mocked native modules.
+- [**vitest-plugin-rsc**](https://github.com/storybookjs/vitest-plugin-rsc) — Test React Server Components and Next.js App Router apps in Browser Mode.
 - [**vitest-pool-assemblyscript**](https://github.com/themattspiral/vitest-pool-assemblyscript) — Run AssemblyScript tests in isolated WASM instances.
 
 ### Agent Skills
