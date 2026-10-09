@@ -129,6 +129,7 @@
 - [**@epure/vitest**](https://github.com/epuremethod/vitest) — Run Gherkin scenarios and structured YAML fixtures as tests.
 - [**@vitejs/devtools-vitest**](https://devtools.vite.dev/vitest/) — Run and watch tests from Vite DevTools.
 - [**executable-stories-vitest**](https://github.com/jagreehal/executable-stories/tree/main/packages/executable-stories-vitest) — Write `Given`/`When`/`Then` stories in tests and generate documentation.
+- [**storyspec**](https://github.com/pluckey/storyspec/tree/main/packages/storyspec) — Link Markdown specifications to typed scenario tests and enforce traceability and architecture rules.
 - [**vitest-affected**](https://github.com/craigvandotcom/vitest-affected) — Select affected tests using a persistent runtime dependency graph.
 - [**vitest-fail-on-console**](https://github.com/thomasbrodusch/vitest-fail-on-console) — Fail tests on unexpected console errors and warnings.
 - [**vitest-git-trigger-patterns**](https://github.com/manbearwiz/vitest-git-trigger-patterns) — Map changed files to specific tests during `--changed` runs.
