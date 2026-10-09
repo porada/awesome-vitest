@@ -93,9 +93,9 @@
 
 - [**@cronn/vitest-file-snapshots**](https://github.com/cronn/file-snapshots/tree/main/packages/vitest-file-snapshots) — Snapshot data into JSON, text, and Markdown table files.
 - [**path-serializer**](https://github.com/rstackjs/path-serializer) — Serialize file paths into consistent, cross-platform strings.
+- [**tsnapi**](https://github.com/antfu/tsnapi) — Guard exported APIs against unintended breaking changes.
 - [**vitest-ansi-serializer**](https://github.com/43081j/vitest-ansi-serializer) — Serialize ANSI escape sequences into human-readable strings.
 - [**vitest-directory-snapshot**](https://github.com/XaveScor/vitest-directory-snapshot) — Snapshot directory trees, including file contents.
-- [**vitest-package-exports**](https://github.com/antfu/vitest-package-exports) — Guard exported APIs against unintended breaking changes.
 - [**vitest-react-serializer**](https://github.com/porada/vitest-react-serializer) — Serialize React components into formatted HTML.
 - [**vitest-snap**](https://github.com/Odonno/vitest-snap) — Snapshot data into plain text, JSON, YAML, and Markdown table files, with redaction for structured formats.
 - [**vitest-snapshot-tools**](https://github.com/atombarel/vitest-snapshot-tools/tree/main/packages/vitest-snapshot-tools) — Review snapshot updates in a local UI and selectively apply them.
