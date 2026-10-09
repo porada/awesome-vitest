@@ -145,6 +145,7 @@
 - [**@wojtekmaj/vitest-react-native**](https://github.com/wojtekmaj/vitest-react-native) — Test React Native projects with the framework’s official mocks.
 - [**ember-vitest**](https://github.com/NullVoxPopuli/ember-vitest) — Test Ember projects.
 - [**eslint-vitest-rule-tester**](https://github.com/antfu-collective/eslint-vitest-rule-tester) — Test ESLint rules and autofixes with custom assertions and snapshots.
+- [**gesso-testing**](https://github.com/kevinpbaker/gesso/tree/main/packages/testing) — Test Gesso components without a browser, with semantic queries and layout diagnostics.
 - [**mcp-vitest**](https://github.com/nixrajput/mcp-vitest) — Test MCP servers.
 - [**neon-testing**](https://github.com/starmode-base/neon-testing) — Run tests against isolated Neon Postgres branches.
 - [**rescript-vitest**](https://github.com/cometkim/rescript-vitest) — Write tests in ReScript.
