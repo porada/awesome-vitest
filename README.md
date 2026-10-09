@@ -162,9 +162,30 @@
 
 - [**antfu/skills**](https://github.com/antfu/skills) — Collection of agent skills by Anthony Fu, including Vitest.
 
+---
+
 <div>&nbsp;</div>
 
-## Related Lists
+<p align="center">
+    <a href="https://github.com/porada/awesome-vitest">
+        <picture>
+            <source
+                srcset=".github/assets/awesome-vitest-dark-scheme-90@3x.png"
+                media="(prefers-color-scheme: dark)"
+            />
+            <source
+                srcset=".github/assets/awesome-vitest-light-scheme-90@3x.png"
+                media="(prefers-color-scheme: light)"
+            />
+            <img
+                src=".github/assets/awesome-vitest-light-scheme-90@3x.png"
+                width="90"
+                alt=""
+            />
+        </picture>
+    </a>
+</p>
 
-- [Awesome Vite](https://github.com/vitejs/awesome-vite)
-- [Awesome Jest](https://github.com/jest-community/awesome-jest)
+<p align="center">Awesome Vitest is curated by&nbsp;<a href="https://dom.engineering">Dom&nbsp;Porada</a>.</p>
+
+<p align="center">Licensed under <code>CC0-1.0</code>.</p>
