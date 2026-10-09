@@ -70,6 +70,7 @@
 ### Mocking
 
 - [**@async-fn/vitest**](https://github.com/team-igniter-from-houston-inc/async-fn/tree/master/packages/vitest) — Create async mocks with control over when they resolve or reject.
+- [**@fetch-mock/vitest**](https://github.com/wheresrhys/fetch-mock/tree/main/packages/vitest) — Mock `fetch` requests with route matching and HTTP-specific assertions.
 - [**vitest-auto-spy**](https://github.com/ASDAlexey/vitest-auto-spy) — Create typed spies from classes.
 - [**vitest-canvas-mock**](https://github.com/wobsoriano/vitest-canvas-mock) — Mock Canvas 2D APIs and snapshot recorded drawing calls.
 - [**vitest-fetch-mock**](https://github.com/IanVS/vitest-fetch-mock) — Mock `fetch` requests and responses.
