@@ -4,7 +4,7 @@ Submissions are welcome!
 
 ## Quick Start
 
-Use the included [agent skill](.agents/skills/add-entry) to assess a resource and add it to the list if it’s a good fit. Clone the repository, then ask your agent:
+Use the included [agent skill](.agents/skills/add-entry/SKILL.md) to assess a resource and add it to the list if it’s a good fit. Clone the repository, then ask your agent:
 
 ```
 /add-entry <resource-url>

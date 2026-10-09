@@ -9,6 +9,9 @@ color: always
 
 engineStrict: true
 
+lockfile:
+  includeResolutionSettings: true
+
 minimumReleaseAgeExclude:
   - '@standard-config/*'
 
