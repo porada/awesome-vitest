@@ -48,6 +48,11 @@
 - [Migrating From Jest](https://vitest.dev/guide/migration/jest)
 - [Browser Mode](https://vitest.dev/guide/browser/)
 
+### Tools
+
+- [IDE Integrations](https://vitest.dev/guide/ide)
+- [Vitest UI](https://vitest.dev/guide/ui)
+
 ### Community
 
 - [Discord](https://chat.vitest.dev)
