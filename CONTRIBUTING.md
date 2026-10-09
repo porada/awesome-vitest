@@ -30,4 +30,4 @@ Use the included [agent skill](.agents/skills/add-entry/SKILL.md) to assess a re
 
 - **Allow maintainer edits.**
 
-    Enable `Allow edits by maintainers` on your pull request. This won’t affect your contribution credit.
+    Keep `Allow edits by maintainers` enabled on your pull request. This won’t affect your contribution credit.

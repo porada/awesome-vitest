@@ -2,15 +2,21 @@
 
 ## List Entry Format
 
-Within each category under `Packages`, keep entries alphabetized using that category’s observed collation, and preserve the bold linked name, spaced em dash, and terminal period. Use this structure, replacing each placeholder with verified content:
+Within each category under `Packages and Tools`, keep entries alphabetized using that category’s observed collation, and preserve the bold linked name, spaced em dash, and terminal period. Use this structure, replacing each placeholder with verified content:
 
 ```text
 - [**<resource-name>**](<resource-url>) — <description>.
 ```
 
-Outside `Packages`, match the existing format and meaningful order under the target heading. `Official Resources` uses plain links without descriptions.
+Outside `Packages and Tools`, match the existing format and meaningful order under the target heading. `Official Resources` uses plain links without descriptions.
 
 The spaced em dash between a package name and its description is a structural separator, not pause punctuation. It is the only exception to the no-spaces rule below. Apply the prose punctuation rules inside descriptions.
+
+## Category Organization
+
+List each resource once, under the category that best fits its primary purpose. `/add-entry` must use existing categories and must not suggest new ones or change the hierarchy. If none fits, report the placement issue and defer the addition.
+
+Keep categories under `Packages and Tools` one level deep, without subcategories.
 
 ## Writing
 
