@@ -2,15 +2,15 @@
     <a href="https://github.com/porada/awesome-vitest">
         <picture>
             <source
-                srcset=".github/assets/awesome-vitest-dark-scheme@3x.png"
+                srcset=".github/assets/awesome-vitest-dark-scheme-520@3x.png"
                 media="(prefers-color-scheme: dark)"
             />
             <source
-                srcset=".github/assets/awesome-vitest-light-scheme@3x.png"
+                srcset=".github/assets/awesome-vitest-light-scheme-520@3x.png"
                 media="(prefers-color-scheme: light)"
             />
             <img
-                src=".github/assets/awesome-vitest-light-scheme@3x.png"
+                src=".github/assets/awesome-vitest-light-scheme-520@3x.png"
                 width="520"
                 alt=""
             />
