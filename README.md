@@ -124,6 +124,7 @@
 - [**@cloudflare/vitest-plugin**](https://developers.cloudflare.com/workers/testing/vitest-integration/) — Run tests in a Cloudflare Workers runtime.
 - [**@webcontainer/test**](https://github.com/stackblitz/webcontainer-test) — Test applications running in StackBlitz WebContainers.
 - [**vitest-environment-happy-dom-extended**](https://github.com/laststance/happy-dom-extended/tree/main/packages/vitest-happy-dom-extended) — Run tests in Happy DOM with real Canvas 2D rendering and extended Web APIs.
+- [**vitest-environment-rsdom**](https://github.com/sagiereder/rsdom/tree/main/packages/vitest-environment-rsdom) — Run tests in `rsdom`, a drop-in `jsdom` replacement accelerated with Rust.
 - [**vitest-environment-web-ext**](https://github.com/crxjs/vitest-environment-web-ext) — Test Chrome extensions end to end with Playwright.
 - [**vitest-environment-webgl-node**](https://github.com/bhouston/vitest-gpu/tree/main/packages/vitest-environment-webgl-node) — Run WebGL tests in Node.js without a browser.
 - [**vitest-environment-webgpu-node**](https://github.com/bhouston/vitest-gpu/tree/main/packages/vitest-environment-webgpu-node) — Run WebGPU tests in Node.js without a browser.
