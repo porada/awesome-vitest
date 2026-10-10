@@ -77,7 +77,7 @@ Preserve explicit user wording choices unless revision is requested. If preservi
 
 For each assessed resource, identify it, state its recommendation, and provide a concise rationale with the decisive source links. Follow the selected outcome’s output contract rather than producing a fixed audit report. Call out material uncertainty or unmet submission requirements.
 
-Put each proposed entry in a Markdown code block. Return one best version unless alternatives are requested or a material editorial choice requires the user’s decision. For wording-only work, return the proposed item and any material caveat without fabricating an inclusion verdict.
+Present each proposed entry as a rendered Markdown list item in a blockquote. Use a fenced code block only when the user explicitly requests raw Markdown. Return one best version unless alternatives are requested or a material editorial choice requires the user’s decision. For wording-only work, return the proposed item and any material caveat without fabricating an inclusion verdict.
 
 Before delivery, check that the name, destination, and any description match the evidence, that duplication and overlap are reflected in the recommendation, that the placement and Markdown fit the current list, and that the entry follows the [project entry requirements](../../../AGENTS.md).
 

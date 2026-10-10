@@ -12,6 +12,8 @@ Outside `Packages and Tools`, match the existing format and meaningful order und
 
 The spaced em dash between a package name and its description is a structural separator, not pause punctuation. It is the only exception to the no-spaces rule below. Apply the prose punctuation rules inside descriptions.
 
+In entry descriptions, exact identifiers used to install, import, configure, or call software qualify as code tokens. This includes package names, environment identifiers, configuration keys and literal values, and API identifiers, even when used as nouns in prose. Product names, language names, and general technical terms remain plain text unless they denote literal identifiers in that context.
+
 ## Category Organization
 
 List each resource once, under the category that best fits its primary purpose. `/add-entry` must use existing categories and must not suggest new ones or change the hierarchy. If none fits, report the placement issue and defer the addition.
