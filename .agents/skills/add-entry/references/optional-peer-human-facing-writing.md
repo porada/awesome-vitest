@@ -2,7 +2,7 @@
 
 - **Skill:** [`human-facing-writing`](https://github.com/porada/domfiles/blob/HEAD/skills/human-facing-writing/SKILL.md)
 - **Repository:** `porada/domfiles`
-- **Contribution:** General prose quality and technical wording for entry descriptions, while Add Entry retains inclusion judgment, entry preparation, and delivery.
+- **Contribution:** General prose quality and technical wording for entry descriptions, while Add Entry retains inclusion judgment, entry preparation, and delivery
 - **Immutable root:** `https://raw.githubusercontent.com/porada/domfiles/<full-object-id>/skills/`
 
 Use the mutable skill link only to locate the latest source, not to apply instructions.
