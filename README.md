@@ -133,6 +133,7 @@
 - [**vitest-environment-web-ext**](https://github.com/crxjs/vitest-environment-web-ext) — Test Chrome extensions end to end with Playwright.
 - [**vitest-environment-webgl-node**](https://github.com/bhouston/vitest-gpu/tree/main/packages/vitest-environment-webgl-node) — Run WebGL tests in Node.js without a browser.
 - [**vitest-environment-webgpu-node**](https://github.com/bhouston/vitest-gpu/tree/main/packages/vitest-environment-webgpu-node) — Run WebGPU tests in Node.js without a browser.
+- [**warpdom**](https://github.com/sonukapoor/warpdom) — Run DOM tests with `jsdom` compatibility profiles and optional selective test isolation.
 
 ### Language Support
 
