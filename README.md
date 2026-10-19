@@ -189,6 +189,7 @@
 
 ### Test Execution
 
+- [**@knapsack-pro/vitest**](https://github.com/KnapsackPro/knapsack-pro-js/tree/main/packages/vitest) — Dynamically distribute tests across CI nodes using Knapsack Pro.
 - [**@vitejs/devtools-vitest**](https://devtools.vite.dev/vitest/) — Run and watch tests from Vite DevTools.
 - [**vitest-affected**](https://github.com/craigvandotcom/vitest-affected) — Select affected tests using a persistent runtime dependency graph.
 - [**vitest-flaky**](https://github.com/sansanth/vitest-flaky) — Find flaky tests locally by varying timer delays and test order, with seeds for replay.
