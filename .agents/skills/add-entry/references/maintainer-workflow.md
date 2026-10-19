@@ -6,11 +6,17 @@ When a supplied resource exposes a placement issue, suggest a new category or a 
 
 Explain the placement problem and the proposed change, keeping this skill’s category work limited to proposals. Applying and committing a proposal requires separately approved work through the applicable change and commit workflows. If an entry depends on it, defer the addition until the category change is committed. Keep category changes out of the addition commit.
 
-## Credit Entry Authors
+## Greet Resource Contacts
 
-Identify whom to credit for each committed resource, reusing evidence from its assessment. Do not conduct a separate attribution lookup for assessment or wording-only requests. Attribution uncertainty does not prevent an otherwise approved addition from being committed.
+Identify greeting recipients for each committed resource, reusing evidence from its assessment. Do not conduct a separate contact lookup for assessment or wording-only requests. Recipient uncertainty does not prevent an otherwise approved addition from being committed.
 
-Seek the author or originator of the specific resource. Keep that role distinct from its current maintainer, declared code owner, and repository owner. Evidence must establish who did what, not merely who is involved.
+A greeting notifies a resource contact about its inclusion. It does not establish authorship. Select verified individual accounts in this priority order:
+
+1. Resource authors, preserving supported coauthorship.
+2. Explicitly identified package maintainers, when authorship remains uncertain.
+3. The individual owner of the canonical repository, when neither authors nor package maintainers can be established.
+
+Keep each recipient’s supported role explicit. Do not add fallback contacts merely to expand a greeting whose authors are already established. Stop once suitable recipients are verified, unless concrete conflicting evidence could change the selection.
 
 ### Resolve Resource Identity
 
@@ -22,6 +28,8 @@ Start with the package manifest, package-specific README credits, and authors or
 
 When a person is explicitly credited as an author, verify their GitHub account and stop if that resolves the attribution. Do not reconstruct the entire history unnecessarily.
 
+For the maintainer fallback, require an explicit designation for the relevant package in its manifest, README, maintainer file, or canonical documentation, then verify the individual’s GitHub account. Registry publish access, organization membership, code ownership, or recent commits alone do not establish that designation.
+
 ### Verify GitHub Accounts
 
 Prefer an explicit GitHub profile link or GitHub’s account association on a relevant commit. In [REST commit responses](https://docs.github.com/en/rest/commits/commits#list-commits), distinguish raw `commit.author` metadata from the associated account in `author.login` and from the separate committer fields. Use the author association as evidence, not an assumption of sole authorship. Do not infer a handle from a matching real name, email prefix, or npm username.
@@ -30,26 +38,57 @@ Inspect a pull request’s contribution before assigning credit. Opening or merg
 
 ### Trace Origin When Needed
 
-If direct attribution is missing or ambiguous, inspect package-specific implementation history and relevant pull requests within a bounded scope. Filter commits by the relevant path and branch. Account for pagination rather than treating one page as complete history. Follow discovered predecessor paths when needed, without assuming path filtering follows renames automatically.
+Use bounded package-specific implementation history and relevant pull requests when missing or conflicting attribution leaves recipient selection unresolved. Do not reconstruct an entire history merely to greet a verified maintainer or repository owner. Filter commits by the relevant path and branch. Account for pagination rather than treating one page as complete history. Follow discovered predecessor paths when relevant, without assuming path filtering follows renames automatically.
 
 Find the change that introduced the actual integration, distinguishing original implementation from a rename, relocation, fork import, or bulk migration. Stop when the evidence supports attribution. Do not use a fixed score or rank people by commit count. Discount dependency bumps, formatting sweeps, release automation, generated changes, and unrelated monorepo work without discarding substantive coauthorship.
 
 ### Distinguish Other Roles
 
-Do not substitute a maintainer or code owner when an individual author cannot be established. Recent substantive package work can support a **likely maintainer** inference, not a verified designation or original-author credit. Keep that qualification when relevant to explaining the result.
+Do not describe a maintainer, code owner, or repository owner as an author without authorship evidence. Recent substantive package work can support only a **likely maintainer** inference.
 
 Inspect ownership rules only when they resolve a material ambiguity. [GitHub code ownership](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) assigns review responsibility, not original authorship. On the relevant branch, GitHub uses the first file found in this order: `.github/CODEOWNERS`, root `CODEOWNERS`, then `docs/CODEOWNERS`. Within that file, the last matching pattern wins. Evaluate relevant implementation files, not only the manifest. Preserve differing file owners, follow a documented custom ownership system’s semantics when applicable, and never choose an arbitrary member of a team.
 
-### Deliver Greeting
+### Verify Repository Ownership
 
-For each committed entry with verified individual author accounts, identify the resource and output one greeting in its own fenced code block, replacing the placeholder with the verified handle:
+Confirm that the repository is canonical for the listed resource, including the specific package in a monorepo. Verify its current `owner.login` and `owner.type` through the GitHub API. The fallback requires `owner.type` to be `User` and no conflicting evidence that makes the account an inappropriate resource contact. A username-looking URL alone is insufficient. Do not select an arbitrary member of an organization or team.
+
+Label this recipient as the **repository owner**, and state that original authorship was not established. Keep the repository identity and ownership evidence with the recipient selection.
+
+### Present Greetings and Offer Posting
+
+Before preparing greetings, exclude the account that passed [maintainer verification](../SKILL.md#verify-maintainer-account) from the selected recipients using a case-insensitive GitHub login comparison. Keep the attribution evidence and any other verified recipients. If no recipients remain for a resource, omit its greeting and posting offer, explain that no external recipient remains, and do not seek fallback contacts merely to produce a greeting.
+
+For each committed entry with verified recipients, identify the resource and output one greeting in its own fenced code block, replacing the placeholder with the verified handle:
 
 ```text
-👋 @<author-handle>
+👋 @<recipient-handle>
 ```
 
-For multiple supported authors, place their handles alphabetically on the same greeting line, separated by single spaces. Outside the block, give the supported attribution role and decisive evidence link. Include competing attribution or a limitation only when it materially affects whom to credit.
+For multiple supported recipients, place their handles alphabetically on the same greeting line, separated by single spaces. Outside the block, give each recipient’s supported role and decisive evidence link. Include competing attribution or a limitation only when it materially affects whom to greet.
 
-If only an organization, team, unverified identity, or insufficient evidence is available, omit the greeting and explain the limitation. Inaccessible evidence does not prove that no author exists. Do not present a likely maintainer as an author merely to produce a mention.
+If only an organization, team, unverified identity, or insufficient evidence is available, omit the greeting and explain the limitation. Inaccessible evidence does not prove that no author exists.
 
-The greeting is output for the user to copy. Do not post a comment, notify anyone remotely, or publish the commit without separate authorization.
+For each resource with a prepared greeting, retain a conversation-local mapping from its name and URL to its approved `README.md` addition, verified recipients and roles, exact greeting, and addition commit’s full SHA. Inspect the recorded commit’s patch to establish that mapping. Show the corresponding full commit permalink in `porada/awesome-vitest` beside each greeting. Commits used as authorship evidence in a resource’s own repository are never posting destinations.
+
+After presenting at least one mapping, offer to post the greetings after the user pushes the commits. Present the greetings and posting offer as one batch. One explicit approval may cover the displayed batch. Skip the offer only when posting that exact batch is already authorized. The user handles the push. Approval to add or commit entries does not authorize comments, and a report that the commits were pushed does not authorize comments either. Posting approval given before the push remains pending until the user confirms publication and the remote checks below succeed.
+
+### Verify Published Destinations
+
+Use `gh` with the same existing `github.com` authentication used for maintainer verification. Before posting the batch, repeat only the [maintainer verification command](../SKILL.md#verify-maintainer-account) and require a successful `true` result. Otherwise, stop and report that posting requires verified maintainer authentication, without switching accounts or posting through another integration.
+
+Before each comment, verify the complete resource, recipient, body, and commit mapping against GitHub:
+
+1. Address `porada/awesome-vitest` explicitly, using the recorded full SHA rather than `HEAD`, a branch tip, commit order, a matching title, or the CLI’s default repository.
+2. Confirm that the full SHA is in the current published `main` history. A commit that resolves through the API is not sufficient, and an earlier addition commit need not be the branch tip. For a GitHub comparison, use the addition SHA as the base and the current `main` tip as the head, requiring `ahead` or `identical`.
+3. Read the remote commit’s actual `README.md` diff and confirm that it adds the approved resource with the expected name and destination URL. Compare it with the recorded addition, not merely the commit message or current file contents. If the patch is unavailable or incomplete, obtain sufficient read-only evidence before proceeding.
+4. Confirm that the recipients, supported roles, and exact greeting still match the approved mapping. Resolve any conflicting recipient evidence before posting.
+
+If publication cannot be verified, wait for the user rather than pushing or posting. If an amend, rebase, squash, or other change replaced the SHA, do not select a substitute automatically. Inspect the proposed replacement, present the revised mapping, and obtain approval for that destination. Changed recipients or comment text also require approval of the revised mapping. Unchanged, verified mappings do not need another confirmation.
+
+### Post and Verify Comments
+
+Post one greeting at a time, as a commit-level comment without a file or line attachment. Before posting, inspect that commit’s existing comments for an equivalent greeting to the same recipients, accounting for pagination. If one already exists, report its permalink instead of duplicating it. If a relevant existing comment conflicts with the approved greeting, ask before replacing or supplementing it.
+
+Use the verified repository and full SHA explicitly, and send only the approved greeting as the comment body. Verify the returned comment’s repository, commit SHA, body, and author’s `user.login` against the approved mapping and verified posting account before continuing to the next resource. Report each successful comment’s permalink.
+
+If a request times out or its outcome is uncertain, inspect that exact commit’s comments before any retry. If the result remains uncertain, stop and report it rather than risk a duplicate. On any destination, body, or posting account mismatch, stop the remaining batch and report what was posted. Do not delete, edit, or repost a comment as an automatic repair. Removing a comment cannot reliably undo notifications already sent.
