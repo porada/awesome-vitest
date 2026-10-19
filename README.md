@@ -147,6 +147,7 @@
 - [**@storybook/addon-vitest**](https://storybook.js.org/docs/writing-tests/integrations/vitest-addon) — Run Storybook stories as component tests in Browser Mode.
 - [**@wojtekmaj/vitest-react-native**](https://github.com/wojtekmaj/vitest-react-native) — Test React Native projects with the framework’s official mocks.
 - [**ember-vitest**](https://github.com/NullVoxPopuli/ember-vitest) — Test Ember projects.
+- [**expo-vitest**](https://github.com/kat-tax/expo-vitest) — Test Expo apps on iOS, Android, web, and Windows with shared APIs for unit and device tests.
 - [**gesso-testing**](https://github.com/kevinpbaker/gesso/tree/main/packages/testing) — Test Gesso components without a browser, with semantic queries and layout diagnostics.
 - [**vitest-browser-three**](https://github.com/linbingquan/vitest-browser-three) — Test Three.js shader logic on a real GPU.
 - [**vitest-expo**](https://github.com/niondigital/vitest-expo) — Test Expo apps with SDK-specific mocks and navigation helpers.
