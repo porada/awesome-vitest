@@ -121,6 +121,7 @@
 
 ### Coverage
 
+- [**davelosert/vitest-coverage-report-action**](https://github.com/davelosert/vitest-coverage-report-action) — Show coverage changes and link to uncovered lines in pull request comments and workflow summaries.
 - [**nextcov**](https://github.com/stevez/nextcov) — Collect Playwright E2E coverage for Next.js and Vite apps and merge it with Vitest coverage.
 - [**supercov**](https://github.com/supercorp-ai/supercov) — Measure per-test coverage, including MC/DC.
 
