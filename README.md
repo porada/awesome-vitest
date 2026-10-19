@@ -169,6 +169,7 @@
 ### Test Utilities
 
 - [**@logtape/testing-vitest**](https://github.com/dahlia/logtape/tree/main/packages/testing-vitest) — Report LogTape logs when tests fail.
+- [**saidvsdid**](https://github.com/JorgeAV99/saidvsdid) — Detect deleted, skipped, or weakened tests and test configuration changes in pull requests.
 - [**vitest-dedup**](https://github.com/figueiredoluiz/vitest-dedup) — Find duplicate and near-duplicate tests through static analysis.
 - [**vitest-fail-on-console**](https://github.com/thomasbrodusch/vitest-fail-on-console) — Fail tests on unexpected console errors and warnings.
 - [**vitest-plugin-random-seed**](https://github.com/aklinker1/vitest-plugin-random-seed) — Provide a reproducible seed for random test data generators.
