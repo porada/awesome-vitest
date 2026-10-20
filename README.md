@@ -185,6 +185,7 @@
 
 - [**@epure/vitest**](https://github.com/epuremethod/vitest) — Run Gherkin scenarios and structured YAML fixtures as tests.
 - [**@fast-check/vitest**](https://github.com/dubzzz/fast-check/tree/main/packages/vitest) — Find edge cases with property-based testing and simplify failing inputs.
+- [**feat2test**](https://github.com/aquine-kujaruk/feat2test) — Generate TypeScript tests from Gherkin and keep editable step adapters in sync.
 - [**storyspec**](https://github.com/pluckey/storyspec/tree/main/packages/storyspec) — Link Markdown specifications to typed scenario tests and enforce traceability and architecture rules.
 - [**vitiate**](https://github.com/mjkoo/vitiate) — Find bugs with fuzz testing and replay failing inputs as regression tests.
 
