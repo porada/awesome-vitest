@@ -17,7 +17,7 @@
 		"@standard-config/prettier": "^1.22.0",
 		"prettier": "^3.9.10",
 		"simple-git-hooks": "^2.14.0",
-		"skills": "^1.7.2"
+		"skills": "^1.7.4"
 	},
 	"scripts": {
 		"fix": "pnpm format",
