@@ -183,8 +183,8 @@ importers:
         specifier: ^2.14.0
         version: 2.14.0
       skills:
-        specifier: ^1.7.2
-        version: 1.7.2
+        specifier: ^1.7.4
+        version: 1.7.4
 
 packages:
 
@@ -284,8 +284,8 @@ packages:
     resolution: {integrity: sha512-kkTORPAuxQz2g1QUuN0J8yGWT28tjGBfPOdJ4xT7Vbeu30veKUZQIoID2qGgCDAakaQn59UeZJJ4cFGB8PVP2A==}
     hasBin: true
 
-  skills@1.7.2:
-    resolution: {integrity: sha512-j+GzyF/oNahsjjjup6y3lJpFkC1lQjIkf4kAMXICA1hboBqi0fAGXAGoE4x9FRZiP1br/YE9+L3/Tqq6PIAe0A==}
+  skills@1.7.4:
+    resolution: {integrity: sha512-lHZJksE8UImNAr+LL6unqq7jERjdFw5EJasm17srycwL7rXHGdCmgu1L1ttLxUO9i3rdH+QQig+px0icHqLmRw==}
     engines: {node: '>=22.20.0'}
     hasBin: true
 
@@ -378,7 +378,7 @@ snapshots:
 
   simple-git-hooks@2.14.0: {}
 
-  skills@1.7.2:
+  skills@1.7.4:
     dependencies:
       tar: 7.5.22
       yaml: 2.9.1
