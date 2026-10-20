@@ -1,2 +1,4 @@
+.agents/skills/human-facing-writing
 .DS_Store
 node_modules
+skills-lock.json

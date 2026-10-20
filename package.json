@@ -16,12 +16,14 @@
 	"devDependencies": {
 		"@standard-config/prettier": "^1.22.0",
 		"prettier": "^3.9.10",
-		"simple-git-hooks": "^2.14.0"
+		"simple-git-hooks": "^2.14.0",
+		"skills": "^1.7.2"
 	},
 	"scripts": {
 		"fix": "pnpm format",
 		"format": "prettier --ignore-unknown --log-level=warn --write .",
 		"format:check": "prettier --check --ignore-unknown .",
+		"postinstall": "skills add porada/domfiles --agent universal --json --skill human-facing-writing --yes",
 		"prepare": "simple-git-hooks"
 	},
 	"simple-git-hooks": {

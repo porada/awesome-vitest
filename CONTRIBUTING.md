@@ -10,7 +10,9 @@ Use the included [agent skill](.agents/skills/add-entry/SKILL.md) to assess a re
 Resource: <resource-url>
 Repository: https://github.com/porada/awesome-vitest
 
-Clone the repository, then follow the instructions in `.agents/skills/add-entry/SKILL.md`. Push any commits to my fork, creating one if needed.
+1. Set up the repository.
+2. Follow the instructions in `.agents/skills/add-entry/SKILL.md`.
+3. Push any commits to my fork, creating one if needed.
 ```
 
 If you’ve already cloned the repository, use the skill directly:
