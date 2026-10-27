@@ -161,6 +161,7 @@
 - [**neon-testing**](https://github.com/starmode-base/neon-testing) — Run tests against isolated Neon Postgres branches.
 - [**vitest-groq**](https://github.com/sanity-labs/vitest-groq) — Test GROQ queries and execution plans.
 - [**vitest-mongo**](https://github.com/danielpza/vitest-mongo) — Start MongoDB test instances and expose their connection URI.
+- [**vitest-prisma**](https://github.com/aiji42/vitest-prisma) — Roll back Prisma database changes after each test, with savepoints for nested transactions.
 
 ### Developer Tool Testing
 
