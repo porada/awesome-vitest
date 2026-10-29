@@ -138,6 +138,7 @@
 
 ### Language Support
 
+- [**@rezless/vitest**](https://github.com/i-doll/rezless/tree/main/packages/vitest) — Test Linden Scripting Language scripts with virtual time, mockable APIs, and custom assertions.
 - [**rescript-vitest**](https://github.com/cometkim/rescript-vitest) — Write tests in ReScript.
 - [**vitest-bats**](https://github.com/spencerbeggs/vitest-bats) — Test Bash scripts through BATS.
 - [**vitest-pool-assemblyscript**](https://github.com/themattspiral/vitest-pool-assemblyscript) — Run AssemblyScript tests in isolated WASM instances.
