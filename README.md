@@ -189,6 +189,7 @@
 
 - [**@epure/vitest**](https://github.com/epuremethod/vitest) — Run Gherkin scenarios and structured YAML fixtures as tests.
 - [**@fast-check/vitest**](https://github.com/dubzzz/fast-check/tree/main/packages/vitest) — Find edge cases with property-based testing and simplify failing inputs.
+- [**@harnessed-ts/dom**](https://github.com/joegaudet/harnessed/tree/main/packages/dom) — Test components through reusable harnesses with Testing Library and custom assertions.
 - [**eutaxy**](https://github.com/Kaisenwerk/eutaxy) — Test Cloudflare Workers and AWS Lambda with deterministic simulation, fault injection, and invariant checks.
 - [**feat2test**](https://github.com/aquine-kujaruk/feat2test) — Generate TypeScript tests from Gherkin and keep editable step adapters in sync.
 - [**storyspec**](https://github.com/pluckey/storyspec/tree/main/packages/storyspec) — Link Markdown specifications to typed scenario tests and enforce traceability and architecture rules.
