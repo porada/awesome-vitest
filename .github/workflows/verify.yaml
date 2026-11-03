@@ -20,5 +20,5 @@ jobs:
           persist-credentials: false
       - uses: pnpm/setup@v3.1.2
         with:
-          runtime: node@24
+          runtime: node@26
       - run: pnpm format:check
