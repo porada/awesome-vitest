@@ -148,6 +148,7 @@
 
 - [**@augeo/assay**](https://github.com/AugeoCorp/assay) — Test Shopify Liquid templates with Vitest Browser Mode.
 - [**@effect/vitest**](https://github.com/Effect-TS/effect/tree/main/packages/vitest) — Test Effect-based code with automatic resource cleanup, shared layers, and a simulated clock.
+- [**@ng-native/testing**](https://github.com/ng-native/ng-native/tree/main/packages/testing) — Test Angular Native components in Node.js.
 - [**@storybook/addon-vitest**](https://storybook.js.org/docs/writing-tests/integrations/vitest-addon) — Run Storybook stories as component tests in Browser Mode.
 - [**@wojtekmaj/vitest-react-native**](https://github.com/wojtekmaj/vitest-react-native) — Test React Native projects with the framework’s official mocks.
 - [**ember-vitest**](https://github.com/NullVoxPopuli/ember-vitest) — Test Ember projects.
