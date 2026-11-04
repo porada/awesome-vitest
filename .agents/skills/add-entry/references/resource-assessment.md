@@ -42,7 +42,9 @@ An absent peer declaration, older development dependencies, examples, or CI cove
 
 ### Published Follow-Up
 
-Packages must have an initial published version and at least one subsequent published version. Verify this through the package’s authoritative registry or release history, and reject packages with fewer than two distinct published versions. Multiple tags for one version, unshipped commits, and releases of unrelated packages in a monorepo don’t count. If the available history is incomplete, defer rather than assume that only one release exists.
+Packages must have at least two distinct published versions, excluding pre-release versions. Exclude versions with a [SemVer pre-release identifier](https://semver.org/spec/v2.0.0.html#spec-item-9), such as `1.0.0-beta.1`, or marked as pre-releases in the authoritative release history. A major version of zero alone doesn’t exclude a version, so `0.1.0` can count.
+
+Verify the count through the package’s authoritative registry or release history, and reject packages below that minimum. Multiple tags for one version, unshipped commits, and releases of unrelated packages in a monorepo don’t count. If the available history is incomplete, defer rather than assume the minimum isn’t met.
 
 ### Native Alternatives
 

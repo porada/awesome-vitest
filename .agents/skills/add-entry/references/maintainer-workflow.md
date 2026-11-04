@@ -48,9 +48,9 @@ Confirm that the repository is canonical for the listed resource, including the 
 
 Label this recipient as the **repository owner**, and state that original authorship was not established. Keep the repository identity and ownership evidence with the recipient selection.
 
-### Present Greetings and Offer Posting
+### Present Greetings and Offer Publication
 
-Before preparing greetings, exclude the account that passed [maintainer verification](../SKILL.md#verify-maintainer-account) from the selected recipients using a case-insensitive GitHub login comparison. Keep the attribution evidence and any other verified recipients. If no recipients remain for a resource, omit its greeting and posting offer, explain that no external recipient remains, and don’t seek fallback contacts merely to produce a greeting.
+Before preparing greetings, exclude the account that passed [maintainer verification](../SKILL.md#verify-maintainer-account) from the selected recipients using a case-insensitive GitHub login comparison. Keep the attribution evidence and any other verified recipients. If no recipients remain for a resource, omit its greeting, explain that no external recipient remains, and don’t seek fallback contacts merely to produce a greeting.
 
 For each committed entry with verified recipients, identify the resource and output one greeting in its own fenced code block, replacing the placeholder with the verified handle:
 
@@ -64,9 +64,13 @@ If only an organization, team, unverified identity, or insufficient evidence is 
 
 For each resource with a prepared greeting, retain a conversation-local mapping from its name and URL to its approved `README.md` addition, verified recipients and roles, exact greeting, and addition commit’s full SHA. Inspect the recorded commit’s patch to establish that mapping. Show the corresponding full commit permalink in `porada/awesome-vitest` beside each greeting. Commits used as authorship evidence in a resource’s own repository are never posting destinations.
 
-After presenting at least one mapping, offer to post the greetings after the user pushes the commits. Present the greetings and posting offer as one batch. One explicit approval may cover the displayed batch. Skip the offer only when posting that exact batch is already authorized. The user handles the push. Approval to add or commit entries doesn’t authorize comments, and a report that the commits were pushed doesn’t authorize comments either. Posting approval given before the push remains pending until the user confirms publication and the remote checks below succeed.
+For the committed additions, offer to push the commits to `porada/awesome-vitest`’s `main` branch and publish any prepared greetings as commit comments. Before offering a push, verify that the selected remote’s effective push destination is `porada/awesome-vitest` on `github.com`, and inspect the complete outgoing commit range. If the destination differs, report the mismatch instead of offering the push. If pushing would include other commits or require a history rewrite, resolve that scope with the user before offering the push. Present the exact push destination, commits, and greeting mappings as one batch. Omit the push for commits already published on `main`, and omit comments when no greetings were prepared. Request approval for each action unless its exact commits or greeting mappings are already authorized.
 
-### Verify Published Destinations
+One explicit approval may cover both the push and comments. Approval to add or commit entries covers neither, and approval of only one publication action doesn’t authorize the other. A report that commits were pushed isn’t comment approval. If the user will push the commits themselves, retain any approval for the unchanged comment batch and resume verification when they report the push.
+
+### Publish and Verify Destinations
+
+Once pushing is explicitly authorized, use the verified remote and an explicit refspec to publish only the approved commits to `main`. If the push would now include unapproved commits or require an unapproved history rewrite, stop for a separate decision rather than expanding the approved batch. After the push, verify publication through the remote checks below before posting.
 
 Use `gh` with the same existing `github.com` authentication used for maintainer verification. Before posting the batch, repeat only the [maintainer verification command](../SKILL.md#verify-maintainer-account) and require a successful `true` result. Otherwise, stop and report that posting requires verified maintainer authentication, without switching accounts or posting through another integration.
 
@@ -77,7 +81,7 @@ Before each comment, verify the complete resource, recipient, body, and commit m
 3. Read the remote commit’s actual `README.md` diff and confirm that it adds the approved resource with the expected name and destination URL. Compare it with the recorded addition, not merely the commit message or current file contents. If the patch is unavailable or incomplete, obtain sufficient read-only evidence before proceeding.
 4. Confirm that the recipients, supported roles, and exact greeting still match the approved mapping. Resolve any conflicting recipient evidence before posting.
 
-If publication can’t be verified, wait for the user rather than pushing or posting. If an amend, rebase, squash, or other change replaced the SHA, don’t select a substitute automatically. Inspect the proposed replacement, present the revised mapping, and obtain approval for that destination. Changed recipients or comment text also require approval of the revised mapping. Unchanged, verified mappings don’t need another confirmation.
+If publication can’t be verified, don’t post. For a failed push or an uncertain outcome, inspect the remote state before any retry and report what’s needed to continue. If an amend, rebase, squash, or other change replaced the SHA, don’t select a substitute automatically. Inspect the proposed replacement, present the revised mapping, and obtain approval for that destination. Changed recipients or comment text also require approval of the revised mapping. Unchanged, verified mappings don’t need another confirmation.
 
 ### Post and Verify Comments
 
