@@ -146,6 +146,7 @@
 
 ### Framework and Library Support
 
+- [**@analogjs/vitest-angular**](https://github.com/analogjs/analog/tree/beta/packages/vitest-angular) — Test Angular projects with CLI integration, `TestBed` setup, and component snapshots.
 - [**@augeo/assay**](https://github.com/AugeoCorp/assay) — Test Shopify Liquid templates with Vitest Browser Mode.
 - [**@effect/vitest**](https://github.com/Effect-TS/effect/tree/main/packages/vitest) — Test Effect-based code with automatic resource cleanup, shared layers, and a simulated clock.
 - [**@ng-native/testing**](https://github.com/ng-native/ng-native/tree/main/packages/testing) — Test Angular Native components in Node.js.
