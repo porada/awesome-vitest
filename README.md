@@ -72,7 +72,7 @@
 - [**@async-fn/vitest**](https://github.com/team-igniter-from-houston-inc/async-fn/tree/master/packages/vitest) — Create async mocks with control over when they resolve or reject.
 - [**@fetch-mock/vitest**](https://github.com/wheresrhys/fetch-mock/tree/main/packages/vitest) — Mock `fetch` requests with route matching and HTTP-specific assertions.
 - [**obsidian-test-mocks**](https://github.com/mnaoumov/obsidian-test-mocks) — Mock the Obsidian plugin API.
-- [**tomiko**](https://github.com/Tomiko-M/tomiko) — Record and replay LLM API calls, with assertions for tool calls, token usage, and estimated cost.
+- [**tomiko**](https://github.com/Tomiko-M/tomiko) — Record and replay LLM API calls, with assertions for tool calls and estimated cost.
 - [**vitest-auto-spy**](https://github.com/ASDAlexey/vitest-auto-spy) — Create typed spies from classes.
 - [**vitest-canvas-mock**](https://github.com/wobsoriano/vitest-canvas-mock) — Mock Canvas 2D APIs and snapshot recorded drawing calls.
 - [**vitest-fetch-mock**](https://github.com/IanVS/vitest-fetch-mock) — Mock `fetch` requests and responses.
@@ -129,7 +129,7 @@
 
 - [**@cloudflare/vitest-plugin**](https://developers.cloudflare.com/workers/testing/vitest-integration/) — Run tests in a Cloudflare Workers runtime.
 - [**@webcontainer/test**](https://github.com/stackblitz/webcontainer-test) — Test applications running in StackBlitz WebContainers.
-- [**biloba**](https://github.com/onsi/biloba/tree/master/typescript) — Test web apps in Chrome from Node.js, with isolated sessions and automatic failure diagnostics.
+- [**biloba**](https://github.com/onsi/biloba/tree/master/typescript) — Test web apps in Chrome from Node.js, with isolated sessions.
 - [**vitest-environment-happy-dom-extended**](https://github.com/laststance/happy-dom-extended/tree/main/packages/vitest-happy-dom-extended) — Run tests in Happy DOM with real Canvas 2D rendering and extended Web APIs.
 - [**vitest-environment-rsdom**](https://github.com/sagiereder/rsdom/tree/main/packages/vitest-environment-rsdom) — Run tests in `rsdom`, a drop-in `jsdom` replacement accelerated with Rust.
 - [**vitest-environment-web-ext**](https://github.com/crxjs/vitest-environment-web-ext) — Test Chrome extensions end to end with Playwright.
@@ -139,21 +139,21 @@
 
 ### Language Support
 
-- [**@rezless/vitest**](https://github.com/i-doll/rezless/tree/main/packages/vitest) — Test Linden Scripting Language scripts with virtual time, mockable APIs, and custom assertions.
+- [**@rezless/vitest**](https://github.com/i-doll/rezless/tree/main/packages/vitest) — Test Linden Scripting Language scripts with virtual time and mockable APIs.
 - [**rescript-vitest**](https://github.com/cometkim/rescript-vitest) — Write tests in ReScript.
 - [**vitest-bats**](https://github.com/spencerbeggs/vitest-bats) — Test Bash scripts through BATS.
 - [**vitest-pool-assemblyscript**](https://github.com/themattspiral/vitest-pool-assemblyscript) — Run AssemblyScript tests in isolated WASM instances.
 
 ### Framework and Library Support
 
-- [**@analogjs/vitest-angular**](https://github.com/analogjs/analog/tree/beta/packages/vitest-angular) — Test Angular projects with CLI integration, `TestBed` setup, and component snapshots.
+- [**@analogjs/vitest-angular**](https://github.com/analogjs/analog/tree/beta/packages/vitest-angular) — Test Angular projects with CLI integration and `TestBed` setup.
 - [**@augeo/assay**](https://github.com/AugeoCorp/assay) — Test Shopify Liquid templates with Vitest Browser Mode.
 - [**@effect/vitest**](https://github.com/Effect-TS/effect/tree/main/packages/vitest) — Test Effect-based code with automatic resource cleanup, shared layers, and a simulated clock.
 - [**@ng-native/testing**](https://github.com/ng-native/ng-native/tree/main/packages/testing) — Test Angular Native components in Node.js.
 - [**@storybook/addon-vitest**](https://storybook.js.org/docs/writing-tests/integrations/vitest-addon) — Run Storybook stories as component tests in Browser Mode.
 - [**@wojtekmaj/vitest-react-native**](https://github.com/wojtekmaj/vitest-react-native) — Test React Native projects with the framework’s official mocks.
 - [**ember-vitest**](https://github.com/NullVoxPopuli/ember-vitest) — Test Ember projects.
-- [**expo-vitest**](https://github.com/kat-tax/expo-vitest) — Test Expo apps on iOS, Android, web, and Windows with shared APIs for unit and device tests.
+- [**expo-vitest**](https://github.com/kat-tax/expo-vitest) — Test Expo apps with shared APIs for unit and device tests.
 - [**gesso-testing**](https://github.com/kevinpbaker/gesso/tree/main/packages/testing) — Test Gesso components without a browser, with semantic queries and layout diagnostics.
 - [**vitest-browser-three**](https://github.com/linbingquan/vitest-browser-three) — Test Three.js shader logic on a real GPU.
 - [**vitest-expo**](https://github.com/niondigital/vitest-expo) — Test Expo apps with SDK-specific mocks and navigation helpers.
@@ -170,7 +170,7 @@
 ### Developer Tool Testing
 
 - [**@termless/test**](https://github.com/beorn/termless) — Test terminal applications across multiple terminal emulators.
-- [**eslint-vitest-rule-tester**](https://github.com/antfu-collective/eslint-vitest-rule-tester) — Test ESLint rules and autofixes with custom assertions and snapshots.
+- [**eslint-vitest-rule-tester**](https://github.com/antfu-collective/eslint-vitest-rule-tester) — Test ESLint rules and autofixes with snapshots.
 - [**mcp-vitest**](https://github.com/nixrajput/mcp-vitest) — Test MCP servers.
 
 ### Test Utilities
@@ -192,7 +192,7 @@
 
 - [**@epure/vitest**](https://github.com/epuremethod/vitest) — Run Gherkin scenarios and structured YAML fixtures as tests.
 - [**@fast-check/vitest**](https://github.com/dubzzz/fast-check/tree/main/packages/vitest) — Find edge cases with property-based testing and simplify failing inputs.
-- [**@harnessed-ts/dom**](https://github.com/joegaudet/harnessed/tree/main/packages/dom) — Test components through reusable harnesses with Testing Library and custom assertions.
+- [**@harnessed-ts/dom**](https://github.com/joegaudet/harnessed/tree/main/packages/dom) — Test components through reusable harnesses with Testing Library.
 - [**eutaxy**](https://github.com/Kaisenwerk/eutaxy) — Test Cloudflare Workers and AWS Lambda with deterministic simulation, fault injection, and invariant checks.
 - [**feat2test**](https://github.com/aquine-kujaruk/feat2test) — Generate TypeScript tests from Gherkin and keep editable step adapters in sync.
 - [**storyspec**](https://github.com/pluckey/storyspec/tree/main/packages/storyspec) — Link Markdown specifications to typed scenario tests and enforce traceability and architecture rules.
@@ -203,7 +203,7 @@
 - [**@knapsack-pro/vitest**](https://github.com/KnapsackPro/knapsack-pro-js/tree/main/packages/vitest) — Dynamically distribute tests across CI nodes using Knapsack Pro.
 - [**@nx/vitest**](https://nx.dev/docs/technologies/test-tools/vitest/introduction) — Run tests in Nx workspaces, with inferred tasks and CI splitting by test file.
 - [**@vitejs/devtools-vitest**](https://devtools.vite.dev/vitest/) — Run and watch tests from Vite DevTools.
-- [**bivium**](https://github.com/metonym/bivium) — Select affected tests before installing project dependencies, with support for fixtures and generated files.
+- [**bivium**](https://github.com/metonym/bivium) — Select affected tests before installing project dependencies.
 - [**tracegate-ci**](https://github.com/davidscotttufts/tracegate-ci) — Local CI that validates test selection against full runs before skipping tests, then spot-checks the skips.
 - [**vitest-affected**](https://github.com/craigvandotcom/vitest-affected) — Select affected tests using a persistent runtime dependency graph.
 - [**vitest-flaky**](https://github.com/sansanth/vitest-flaky) — Find flaky tests locally by varying timer delays and test order, with seeds for replay.
