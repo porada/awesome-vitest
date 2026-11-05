@@ -16,6 +16,8 @@ For a candidate under `Official Resources`, assess whether it serves the target 
 
 Verify the actual resource or package name and its relationship to any umbrella project. Check existing entries for the same resource under another name, URL, or package identity. An already listed resource doesn’t need another entry.
 
+Treat `vitest-browser-*` packages as official Browser Mode drivers when their canonical repository belongs to the [`vitest-community`](https://github.com/vitest-community) organization. The Browser Mode guide under Official Resources already covers these drivers, so don’t recommend separate entries. Assess packages with the same prefix from other owners normally.
+
 ### Public Source Repository
 
 Apply this check only to software candidates and agent skills, whether distributed individually or in collections. Their source must be in a canonical public repository on GitHub or an equivalent repository hosting service, accessible without privileged access. Reject confirmed private repositories and candidates confirmed to lack a public source repository. Don’t inspect private source even when the current account can access it.
@@ -24,21 +26,40 @@ Verify the repository’s canonical identity and current public visibility, then
 
 A license’s presence or classification isn’t an inclusion criterion, and public access doesn’t establish reuse permissions. For an integration, assess the listed integration’s source repository, not that of its backing hosted service.
 
-### English README
+### English Documentation
 
-Assess the package’s primary README in its canonical public source repository, regardless of the proposed entry destination. In a monorepo, use the package-specific README when present. Otherwise, use the repository README if it documents the assessed package.
+Assess the package’s primary README in its canonical public source repository, regardless of the proposed entry destination. Use a README only if it explains how to install or use the package. In a monorepo, prefer an applicable package-specific README, then the repository README if it applies.
 
-Reject the package if that README isn’t written in English and doesn’t link to an English translation of the same README. Inspect any translation used to satisfy this check. If no applicable README can be identified, required content can’t be inspected, or its language is uncertain, defer the recommendation.
+A README that only links to external documentation doesn’t apply, but its link can identify the canonical documentation.
+
+When no README applies, inspect the project’s canonical documentation for the package, including documentation hosted outside the source repository.
+
+Establish that documentation belongs to the project through a link from a source the project controls, such as the package’s registry metadata, the repository’s homepage setting, or a README in the source repository. Search results, preview deployments, mirrors, and third-party integration pages don’t establish provenance.
+
+Reject the package if the selected documentation isn’t written in English and doesn’t link to an English translation of the same content. Inspect any translation used to satisfy this check.
+
+Defer when applicable documentation can’t be identified or inspected, its language is uncertain, or its installation or usage instructions don’t match the package people install. This includes instructions that name a different package, cover only a pre-release or unreleased version rather than the current stable release, or present another product’s name or documentation as the package’s own.
 
 ### Vitest Relevance
 
-Establish substantive Vitest-specific functionality or integration. General compatibility alone doesn’t qualify. Multi-runner support isn’t disqualifying, and dependency placement alone neither establishes nor disproves relevance.
+Establish substantive Vitest-specific functionality or integration. Require software candidates to work with the Vitest setup of the projects that use them, through those projects’ test files, Vitest configuration, the Vitest CLI, or the Vitest API. Reject tools that only bundle Vitest as an internal engine. General compatibility alone doesn’t qualify. Multi-runner support isn’t disqualifying, and dependency placement alone neither establishes nor disproves relevance.
 
 ### Vitest 5 Installation Compatibility
 
-Reject packages whose current published version explicitly excludes stable Vitest 5 releases through consumer-facing dependency constraints or install-time checks. A Vitest peer range that admits no stable 5.x release triggers rejection even if a package manager only warns. Inspect the published package metadata, not only an unreleased repository manifest.
+Assess the current published version using its published metadata and documentation, not only an unreleased repository manifest. When the package’s documented installation method installs from the repository’s default branch, treat that branch as the current published version for compatibility checks. The stable version requirement in [Published Follow-Up](#published-follow-up) still applies.
 
-An absent peer declaration, older development dependencies, examples, or CI coverage don’t establish incompatibility. A regular Vitest dependency may install alongside the consumer’s version and doesn’t alone prove rejection. Don’t treat forced installation or dependency overrides as compatibility. Passing this check doesn’t prove runtime compatibility.
+Reject packages whose current published version explicitly excludes stable Vitest 5 releases through peer dependency constraints, documented compatibility restrictions, or install-time checks. A Vitest peer range that admits no stable 5.x release triggers rejection even if a package manager only warns. If no rejection condition applies, defer packages whose regular, non-peer Vitest dependency is limited to an older major.
+
+Otherwise, require positive evidence of Vitest 5 support for the current published version before recommending inclusion. Accept any of the following:
+
+- A commit on the repository’s default branch when the documented installation method installs from that branch. The commit’s message or a linked pull request or issue must explicitly state that it adds Vitest 5 support.
+- A peer range that explicitly includes a 5.x major, including a range with only a 5.x lower bound. Examples include `>=5.0.0`, `^5.0.0`, `^4.0.0 || ^5.0.0`, and `>=4 <6`.
+- A released changelog or release entry that adds Vitest 5 support.
+- Documentation stating Vitest 5 support.
+
+Treat a range with only a lower bound below 5, such as `>=1` or `>=4`, a wildcard range, or an absent peer declaration as neutral. Source changes that appear compatible without an explicit statement of Vitest 5 support are also neutral. Defer when the only evidence is neutral or positive evidence of support can’t be established. Older development dependencies, examples, or CI coverage alone don’t establish incompatibility.
+
+Don’t treat forced installation or dependency overrides as compatibility. Passing this check doesn’t prove runtime compatibility.
 
 ### Published Follow-Up
 
@@ -68,7 +89,7 @@ For every resource, check material evidence of compatibility problems, deprecati
 | --- | --- |
 | Defer recommendation | A material uncertainty or correctable obstacle prevents a supported recommendation. Identify what evidence or change would resolve it. Don’t present conditional suitability as established or draft an entry unless explicitly requested. |
 | Do not recommend inclusion | Evidence establishes a reason not to add the resource. Explain the list-specific reason and cite the relevant evidence. Give a next step only when one genuinely follows. Don’t draft an entry unless explicitly requested. |
-| Recommend inclusion | The available evidence supports relevance and useful additional value. Give the decisive reason, a proposed placement, and one complete Markdown entry. |
+| Recommend inclusion | The available evidence supports relevance and useful additional value. Give the decisive reason, a proposed placement, and one complete Markdown entry. Add one short evidence line with the canonical source repository, stable version count from [Published Follow-Up](#published-follow-up), latest stable version and its release date, exact Vitest 5 evidence (quote the peer range or link to the explicit support statement accepted by [Vitest 5 Installation Compatibility](#vitest-5-installation-compatibility)), and date of the last qualifying update. Include only items that apply to the resource type, and omit the line when none apply. For instruction-only agent skills, include only the source repository. |
 
 A negative recommendation concerns fit for this list, not the resource’s overall worth. For an already listed resource, point to its entry and suggest an update only when a concrete discrepancy warrants one. For redundancy, identify the native feature or listed alternative and explain why the remaining distinction is insufficient.
 

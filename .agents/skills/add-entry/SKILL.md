@@ -70,7 +70,7 @@ For each assessed resource, identify it, state its recommendation, and provide a
 
 Present each proposed entry as a rendered Markdown list item in a blockquote. Use a fenced code block for an entry only when the user explicitly requests raw Markdown. For wording-only work, return the proposed item and any material caveat without fabricating an inclusion verdict.
 
-Before delivery, check that the name, destination, and any description match the evidence, that duplication and overlap are reflected in the recommendation, that the placement and Markdown fit the current list, and that the entry follows the [project entry requirements](../../../AGENTS.md).
+Before delivery, check that the name, destination, and any description match the evidence, that duplication and overlap are reflected in the recommendation, that the placement and Markdown fit the current list, and that the entry follows the [project entry requirements](../../../AGENTS.md). For inclusion recommendations, also verify the evidence line required by [Select Recommendation](references/resource-assessment.md#select-recommendation).
 
 ### Add Approved Entries
 
