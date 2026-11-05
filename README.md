@@ -108,6 +108,7 @@
 
 ### Visual Regression Testing
 
+- [**@chromatic-com/vitest**](https://www.chromatic.com/docs/vitest/) — Capture DOM snapshots from Browser Mode tests for visual regression testing and review in Chromatic.
 - [**@uiverify/vitest**](https://github.com/uiverify/uiverify/tree/main/packages/vitest) — Capture DOM snapshots from component tests for hosted visual regression testing.
 - [**v-snap**](https://github.com/yortus/mvt-games/tree/main/packages/v-snap) — Snapshot canvas and HTML views in Chromium with controlled fonts and software rendering.
 - [**vitest-image-snapshot**](https://github.com/webgpu-tools/wesl-js/tree/main/packages/vitest-image-snapshot) — Compare `ImageData` and PNG buffers against baselines, with HTML diff reports.
