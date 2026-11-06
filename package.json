@@ -12,12 +12,12 @@
 	"engines": {
 		"node": ">=26"
 	},
-	"packageManager": "pnpm@12.17.0",
+	"packageManager": "pnpm@12.18.0",
 	"devDependencies": {
 		"@standard-config/prettier": "^1.22.0",
 		"prettier": "^3.9.10",
 		"simple-git-hooks": "^2.14.0",
-		"skills": "^1.7.5"
+		"skills": "^1.7.6"
 	},
 	"scripts": {
 		"fix": "pnpm format",

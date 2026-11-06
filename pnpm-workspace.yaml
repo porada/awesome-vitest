@@ -4,8 +4,6 @@ autoInstallPeers: false
 
 color: always
 
-engineStrict: true
-
 lockfile:
   includeResolutionSettings: true
 
