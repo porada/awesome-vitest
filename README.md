@@ -207,6 +207,7 @@
 - [**@nx/vitest**](https://nx.dev/docs/technologies/test-tools/vitest/introduction) — Run tests in Nx workspaces, with inferred tasks and CI splitting by test file.
 - [**@vitejs/devtools-vitest**](https://devtools.vite.dev/vitest/) — Run and watch tests from Vite DevTools.
 - [**bivium**](https://github.com/metonym/bivium) — Select affected tests before installing project dependencies.
+- [**neotest-vitest**](https://github.com/marilari88/neotest-vitest) — Run and debug tests in Neovim through Neotest.
 - [**tracegate-ci**](https://github.com/davidscotttufts/tracegate-ci) — Local CI that validates test selection against full runs before skipping tests, then spot-checks the skips.
 - [**vitest-affected**](https://github.com/craigvandotcom/vitest-affected) — Select affected tests using a persistent runtime dependency graph.
 - [**vitest-flaky**](https://github.com/sansanth/vitest-flaky) — Find flaky tests locally by varying timer delays and test order, with seeds for replay.
