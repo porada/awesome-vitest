@@ -50,7 +50,7 @@ Label this recipient as the **repository owner**, and state that original author
 
 ### Present Greetings and Offer Publication
 
-Before preparing greetings, exclude the account that passed [maintainer verification](../SKILL.md#verify-maintainer-account) from the selected recipients using a case-insensitive GitHub login comparison. Keep the attribution evidence and any other verified recipients. If no recipients remain for a resource, omit its greeting, explain that no external recipient remains, and don’t seek fallback contacts merely to produce a greeting.
+Before preparing greetings, exclude the account that passed [maintainer verification](add-entry.md#verify-maintainer-account) from the selected recipients using a case-insensitive GitHub login comparison. Keep the attribution evidence and any other verified recipients. If no recipients remain for a resource, omit its greeting, explain that no external recipient remains, and don’t seek fallback contacts merely to produce a greeting.
 
 For each committed entry with verified recipients, identify the resource and output one greeting in its own fenced code block, replacing the placeholder with the verified handle:
 
@@ -72,7 +72,7 @@ One explicit approval may cover both the push and comments. Approval to add or c
 
 Once pushing is explicitly authorized, use the verified remote and an explicit refspec to publish only the approved commits to `main`. If the push would now include unapproved commits or require an unapproved history rewrite, stop for a separate decision rather than expanding the approved batch. After the push, verify publication through the remote checks below before posting.
 
-Use `gh` with the same existing `github.com` authentication used for maintainer verification. Before posting the batch, repeat only the [maintainer verification command](../SKILL.md#verify-maintainer-account) and require a successful `true` result. Otherwise, stop and report that posting requires verified maintainer authentication, without switching accounts or posting through another integration.
+Use `gh` with the same existing `github.com` authentication used for maintainer verification. Before posting the batch, repeat only the [maintainer verification command](add-entry.md#verify-maintainer-account) and require a successful `true` result. Otherwise, stop and report that posting requires verified maintainer authentication, without switching accounts or posting through another integration.
 
 Before each comment, verify the complete resource, recipient, body, and commit mapping against GitHub:
 
