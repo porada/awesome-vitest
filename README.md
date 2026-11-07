@@ -127,6 +127,10 @@
 - [**nextcov**](https://github.com/stevez/nextcov) — Collect Playwright E2E coverage for Next.js and Vite apps and merge it with Vitest coverage.
 - [**supercov**](https://github.com/supercorp-ai/supercov) — Measure per-test coverage, including MC/DC.
 
+### Benchmarking
+
+- [**@codspeed/vitest-plugin**](https://github.com/CodSpeedHQ/codspeed-node/tree/main/packages/vitest-plugin) — Track benchmark performance and detect slowdowns.
+
 ### Environments
 
 - [**@cloudflare/vitest-plugin**](https://developers.cloudflare.com/workers/testing/vitest-integration/) — Run tests in a Cloudflare Workers runtime.
