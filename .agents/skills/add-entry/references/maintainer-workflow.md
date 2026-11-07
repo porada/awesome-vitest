@@ -96,3 +96,9 @@ Post one greeting at a time, as a commit-level comment without a file or line at
 Use the verified repository and full SHA explicitly, and send only the approved greeting as the comment body. Verify the returned comment’s repository, commit SHA, body, and author’s `user.login` against the approved mapping and verified posting account before continuing to the next resource. Report each successful comment’s permalink.
 
 If a request times out or its outcome is uncertain, inspect that exact commit’s comments before any retry. If the result remains uncertain, stop and report it rather than risk a duplicate. On any destination, body, or posting account mismatch, stop the remaining batch and report what was posted. Don’t delete, edit, or repost a comment as an automatic repair. Removing a comment cannot reliably undo notifications already sent.
+
+## Complete Maintainer Threads
+
+Evaluate the full thread, including recommendations made before earlier addition commits and additions the user requested despite a negative assessment. Treat as pending only inclusion decisions, approvals, or execution steps needed to finish positively recommended resources or other user-requested work. Explicitly omitted actions aren’t pending work.
+
+When every positively recommended resource has reached its agreed completion point and no requested work remains, complete the current thread without another confirmation using the completion action and safeguards prescribed by the global **Thread cleanup** policy. This completion rule applies to the current thread regardless of who created it.

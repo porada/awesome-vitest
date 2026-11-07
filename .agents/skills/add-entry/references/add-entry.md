@@ -66,6 +66,8 @@ Count distinct candidates across messages in the thread, restarting after an ent
 
 Leave the title unchanged for wording-only work. Never rename another thread. If renaming isn’t supported, skip it without changing the assessment.
 
+Before returning final results, if a global **Thread cleanup** policy exists and the thread contains a positive recommendation, use [maintainer verification](#verify-maintainer-account) and, if it enables the maintainer workflow, evaluate [maintainer thread completion](maintainer-workflow.md#complete-maintainer-threads). This also applies to invocations that required no addition or publication actions. Without a global **Thread cleanup** policy, leave the thread open and don’t archive it.
+
 ### Add Approved Entries
 
 When an assessment recommends inclusion or the user explicitly chooses inclusion, use [maintainer verification](#verify-maintainer-account) to select the workflow before offering actions. Don’t offer additions for wording-only requests.
@@ -88,7 +90,7 @@ Don’t let recipient uncertainty prevent an otherwise approved addition from be
 
 During workflow selection, don’t mention this check or its result, failure, or selected workflow unless the user asks. This affects narration only, not required tool approvals.
 
-Run this read-only check once per invocation when a placement issue or a proposed addition or publication first requires workflow selection, using `gh`’s existing authentication for `github.com`:
+Run this read-only check once per invocation when a placement issue, proposed addition or publication, or thread completion evaluation first requires workflow selection, using `gh`’s existing authentication for `github.com`:
 
 ```sh
 gh api graphql --hostname github.com \
