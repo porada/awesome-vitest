@@ -34,7 +34,7 @@ Before drafting or editing an entry, including wording-only work, read and apply
 
 Load `human-facing-writing` through the client when available, or read `.agents/skills/human-facing-writing/SKILL.md` directly.
 
-If neither source is available, use the repository’s declared dependency setup as needed, then run `pnpm run postinstall` if the installed entrypoint is still absent. Run setup only when the task authorizes it and applicable approval and access requirements are satisfied. If setup needs approval, can’t be completed, or leaves the entrypoint unavailable, report what’s needed along with any completed assessment results, and stop before drafting or editing entries. After setup, read the installed entrypoint before continuing.
+If neither source is available, use the repository’s declared dependency setup as needed, then run `pnpm run postinstall` if the installed entrypoint is still absent. Run setup only when the task authorizes it and applicable approval and access requirements are satisfied. If setup needs approval, can’t be completed, or leaves the entrypoint unavailable, report what’s needed along with any completed assessment results, apply the title rules under [Deliver Results](#deliver-results), and stop before drafting or editing entries. After setup, read the installed entrypoint before continuing.
 
 ### Draft Entry
 
@@ -61,6 +61,12 @@ For each assessed resource, identify it, state its recommendation, and provide a
 Present each proposed entry as a rendered Markdown list item in a blockquote. Use a fenced code block for an entry only when the user explicitly requests raw Markdown. For wording-only work, return the proposed item and any material caveat without fabricating an inclusion verdict.
 
 Before delivery, check that the name, destination, and any description match the evidence, that duplication and overlap are reflected in the recommendation, that the placement and Markdown fit the current list, and that the entry follows the [project entry requirements](../../../../AGENTS.md). For inclusion recommendations, also verify the evidence line required by [Select Recommendation](resource-assessment.md#select-recommendation).
+
+After selecting the final assessment recommendation, update the assessing thread’s own title if the client supports renaming it. Remove any existing leading `✓ ` or `× ` markers, then prepend a marker only for a single-entry assessment: `✓ ` (`U+2713` followed by a space) for Recommend inclusion or `× ` (`U+00D7` followed by a space) for Do not recommend inclusion. Use no marker for Defer recommendation. Apply these rules again when the candidate count or recommendation changes.
+
+Count distinct candidates across messages in the thread, restarting after an entry commit. A count of one defines a single-entry assessment, and reassessing the same candidate doesn’t increase it. When a new single-entry assessment follows an entry commit, replace the previous candidate’s name in the title with the current candidate’s name if needed. Preserve all other title text.
+
+Leave the title unchanged for wording-only work. Never rename another thread. If renaming isn’t supported, skip it without changing the assessment.
 
 ### Add Approved Entries
 
