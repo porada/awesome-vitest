@@ -207,6 +207,7 @@
 - [**eutaxy**](https://github.com/Kaisenwerk/eutaxy) — Test Cloudflare Workers and AWS Lambda with deterministic simulation, fault injection, and invariant checks.
 - [**feat2test**](https://github.com/aquine-kujaruk/feat2test) — Generate TypeScript tests from Gherkin and keep editable step adapters in sync.
 - [**storyspec**](https://github.com/pluckey/storyspec/tree/main/packages/storyspec) — Link Markdown specifications to typed scenario tests and enforce traceability and architecture rules.
+- [**vitest-evals**](https://github.com/getsentry/vitest-evals/tree/main/packages/vitest-evals) — Evaluate AI applications with LLM judges, tool call assertions, and score reports.
 - [**vitiate**](https://github.com/mjkoo/vitiate) — Find bugs with fuzz testing and replay failing inputs as regression tests.
 
 ### Test Execution
