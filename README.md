@@ -82,6 +82,7 @@
 ### Reporters
 
 - [**@flakiness/vitest**](https://github.com/flakiness/vitest) — Flakiness.io reporter.
+- [**@kinora/vitest-reporter**](https://github.com/kinora-dev/kinora/tree/main/packages/vitest-reporter) — Kinora reporter with Playwright traces and Storybook integration.
 - [**@mergifyio/vitest**](https://github.com/Mergifyio/mergify-ci-integrations/tree/main/clients/ts/packages/vitest) — Mergify CI Insights reporter with flaky test detection and quarantine.
 - [**@probara/vitest-reporter**](https://github.com/cynch-me/probara-sdk/tree/main/packages/vitest-reporter) — Probara reporter.
 - [**@qualflare/vitest**](https://github.com/Qualflare/qualflare-vitest) — Qualflare reporter with retry history.
