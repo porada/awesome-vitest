@@ -2,7 +2,7 @@
 
 ## Greet Resource Contacts
 
-Identify greeting recipients for each committed resource, reusing evidence from its assessment.
+Use this procedure whenever preparing maintainer approval for addition or publication actions, regardless of the assessment outcome or which actions have already completed. Prepare recipients and greetings before requesting approval, reusing evidence from the assessment.
 
 A greeting notifies a resource contact about its inclusion. It doesn’t establish authorship. Select verified individual accounts in this priority order:
 
@@ -48,11 +48,11 @@ Confirm that the repository is canonical for the listed resource, including the 
 
 Label this recipient as the **repository owner**, and state that original authorship was not established. Keep the repository identity and ownership evidence with the recipient selection.
 
-### Present Greetings and Offer Publication
+### Prepare Approval Batch
 
 Before preparing greetings, exclude the account that passed [maintainer verification](add-entry.md#verify-maintainer-account) from the selected recipients using a case-insensitive GitHub login comparison. Keep the attribution evidence and any other verified recipients. If no recipients remain for a resource, omit its greeting, explain that no external recipient remains, and don’t seek fallback contacts merely to produce a greeting.
 
-For each committed entry with verified recipients, identify the resource and output one greeting in its own fenced code block, replacing the placeholder with the verified handle:
+For each entry with verified recipients, identify the resource and prepare one greeting, replacing the placeholder with the verified handle:
 
 ```text
 👋 @<recipient-handle>
@@ -62,26 +62,32 @@ For multiple supported recipients, place their handles alphabetically on the sam
 
 If only an organization, team, unverified identity, or insufficient evidence is available, omit the greeting and explain the limitation. Inaccessible evidence doesn’t prove that no author exists.
 
-For each resource with a prepared greeting, retain a conversation-local mapping from its name and URL to its approved `README.md` addition, verified recipients and roles, exact greeting, and addition commit’s full SHA. Inspect the recorded commit’s patch to establish that mapping. Show the corresponding full commit permalink in `porada/awesome-vitest` beside each greeting. Commits used as authorship evidence in a resource’s own repository are never posting destinations.
+For each resource, retain a conversation-local mapping from its name and URL to the complete proposed `README.md` addition, category, complete [commit message](add-entry.md#create-addition-commits), verified recipients and roles, and exact greeting when available. The posting destination is that resource’s addition commit in `porada/awesome-vitest`. For an existing commit, inspect its patch and record its full SHA and permalink. For a planned commit, identify it by the displayed addition and commit message, then bind its SHA after creation. Commits used as authorship evidence in a resource’s own repository are never posting destinations.
 
-For the committed additions, offer to push the commits to `porada/awesome-vitest`’s `main` branch and publish any prepared greetings as commit comments. Before offering a push, verify that the selected remote’s effective push destination is `porada/awesome-vitest` on `github.com`, and inspect the complete outgoing commit range. If the destination differs, report the mismatch instead of offering the push. If pushing would include other commits or require a history rewrite, resolve that scope with the user before offering the push. Present the exact push destination, commits, and greeting mappings as one batch. Omit the push for commits already published on `main`, and omit comments when no greetings were prepared. Request approval for each action unless its exact commits or greeting mappings are already authorized.
+Before offering a push to `main`, verify that the selected remote’s effective push destination is `porada/awesome-vitest` on `github.com`, and inspect the existing outgoing commit range together with the planned additions. If the destination differs, report the mismatch instead of offering the push. If pushing would include other commits or require a history rewrite, resolve that scope with the user before offering the push.
 
-One explicit approval may cover both the push and comments. Approval to add or commit entries covers neither, and approval of only one publication action doesn’t authorize the other. A report that commits were pushed isn’t comment approval. If the user will push the commits themselves, retain any approval for the unchanged comment batch and resume verification when they report the push.
+In every response requesting approval, present each complete current entry, including its description where applicable, and each exact greeting once, using the [entry presentation format](add-entry.md#deliver-results) and a separate fenced code block for each greeting. Include the category, complete commit message, exact push destination, and posting destination, with the full commit permalink when one exists. An entry or greeting already displayed in that response satisfies this requirement and must not be repeated beside the confirmation. Previews in earlier responses don’t replace the current preview.
+
+Ask one confirmation covering the displayed batch’s remaining actions: adding the entries, creating one commit per addition, pushing those commits, and posting the prepared greetings as commit comments. Omit completed actions and explain omitted greetings. Honor narrower user limits and existing explicit authorization for the unchanged batch without asking again. A decision to include a resource doesn’t approve undisplayed entry wording or greetings. Approval of only some actions doesn’t authorize the others, and a report that commits were pushed isn’t comment approval. If the user will push the commits themselves, retain approval for the unchanged comment batch and resume verification when they report the push.
+
+### Bind Approved Additions to Commits
+
+After approval, create any planned commits through [Create Addition Commits](add-entry.md#create-addition-commits). Inspect each resulting commit’s patch and complete message against its approved addition, then record its full SHA and permalink in the mapping. This initial binding requires no further confirmation when the commit matches the approved content and scope. Resolve any mismatch before publication. Reuse verified mappings for existing commits.
 
 ### Publish and Verify Destinations
 
-Once pushing is explicitly authorized, use the verified remote and an explicit refspec to publish only the approved commits to `main`. If the push would now include unapproved commits or require an unapproved history rewrite, stop for a separate decision rather than expanding the approved batch. After the push, verify publication through the remote checks below before posting.
+Once pushing is explicitly authorized, recheck the effective push destination and complete outgoing commit range, then use the verified remote and an explicit refspec to publish only the approved commits to `main`. If the destination changed or the push would now include unapproved commits or require an unapproved history rewrite, stop for a separate decision rather than expanding the approved batch. After the push, verify publication through the remote checks below before posting.
 
 Use `gh` with the same existing `github.com` authentication used for maintainer verification. Before posting the batch, repeat only the [maintainer verification command](add-entry.md#verify-maintainer-account) and require a successful `true` result. Otherwise, stop and report that posting requires verified maintainer authentication, without switching accounts or posting through another integration.
 
-Before each comment, verify the complete resource, recipient, body, and commit mapping against GitHub:
+Before each comment, verify the complete resource, recipient, body, and commit mapping against GitHub, reusing earlier patch evidence only as allowed in step 3:
 
 1. Address `porada/awesome-vitest` explicitly, using the recorded full SHA rather than `HEAD`, a branch tip, commit order, a matching title, or the CLI’s default repository.
 2. Confirm that the full SHA is in the current published `main` history. A commit that resolves through the API isn’t sufficient, and an earlier addition commit need not be the branch tip. For a GitHub comparison, use the addition SHA as the base and the current `main` tip as the head, requiring `ahead` or `identical`.
-3. Read the remote commit’s actual `README.md` diff and confirm that it adds the approved resource with the expected name and destination URL. Compare it with the recorded addition, not merely the commit message or current file contents. If the patch is unavailable or incomplete, obtain sufficient read-only evidence before proceeding.
+3. Confirm that the commit adds the approved resource with the expected name and destination URL, reusing the earlier patch inspection for the same full SHA. If that evidence is unavailable or insufficient, inspect the remote commit’s actual `README.md` diff against the recorded addition. A commit message or current file contents alone aren’t sufficient. If the remote diff is unavailable or incomplete, obtain sufficient read-only evidence before proceeding.
 4. Confirm that the recipients, supported roles, and exact greeting still match the approved mapping. Resolve any conflicting recipient evidence before posting.
 
-If publication can’t be verified, don’t post. For a failed push or an uncertain outcome, inspect the remote state before any retry and report what’s needed to continue. If an amend, rebase, squash, or other change replaced the SHA, don’t select a substitute automatically. Inspect the proposed replacement, present the revised mapping, and obtain approval for that destination. Changed recipients or comment text also require approval of the revised mapping. Unchanged, verified mappings don’t need another confirmation.
+If publication can’t be verified, don’t post. For a failed push or an uncertain outcome, inspect the remote state before any retry and report what’s needed to continue. If an amend, rebase, squash, or other change replaced a bound SHA, don’t select a substitute automatically. Inspect the proposed replacement and obtain approval for the revised mapping through [Prepare Approval Batch](#prepare-approval-batch). Changes to approved entry content, recipients, or greeting text also require approval of the revised mapping. Unchanged, verified mappings don’t need another confirmation.
 
 ### Post and Verify Comments
 

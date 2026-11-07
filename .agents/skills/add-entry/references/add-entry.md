@@ -1,7 +1,5 @@
 # Add Entry
 
-Before resolving scope, complete [maintainer verification](#verify-maintainer-account).
-
 ## Resolve Scope
 
 A candidate link or name requests an inclusion assessment and, when suitable, a draft entry. Apply the same inclusion standard to someone’s own package and to resources they don’t maintain.
@@ -50,7 +48,7 @@ If preserving a user’s wording choice conflicts with the project entry require
 
 Follow the [project category rules](../../../../AGENTS.md#category-organization) and use existing categories. If none fits, report the placement issue and defer the addition until placement is resolved.
 
-In the standard workflow, don’t suggest or make category changes. When the maintainer workflow is enabled and a supplied resource exposes a placement issue, suggest a new category or a relevant rename, split, merge, or reassignment of existing entries when useful. Keep proposals tied to that resource and within the project category rules rather than auditing the inventory.
+When a supplied resource exposes a placement issue, use [maintainer verification](#verify-maintainer-account) to determine whether category proposals are available. In the standard workflow, don’t suggest or make category changes. When the maintainer workflow is enabled, suggest a new category or a relevant rename, split, merge, or reassignment of existing entries when useful. Keep proposals tied to that resource and within the project category rules rather than auditing the inventory.
 
 For maintainer proposals, explain the placement problem and proposed change. Keep this skill’s category work limited to proposals. Applying and committing a proposal requires separately approved work through the applicable change and commit workflows. If an entry depends on it, defer the addition until the category change is committed. Keep category changes out of the addition commit.
 
@@ -70,9 +68,13 @@ Leave the title unchanged for wording-only work. Never rename another thread. If
 
 ### Add Approved Entries
 
-After displaying a positive recommendation, its rationale, proposed placement, and complete entry, offer to add that entry to the list and create its separate commit. Skip the offer only when both actions are already explicitly authorized. Don’t offer additions for other outcomes or wording-only requests.
+When an assessment recommends inclusion or the user explicitly chooses inclusion, use [maintainer verification](#verify-maintainer-account) to select the workflow before offering actions. Don’t offer additions for wording-only requests.
 
-Once both actions are explicitly authorized, recheck the current list for duplication and add only the approved entry to `README.md`, following the placement and formatting guidance above. Run the required repository checks and create one commit per approved addition through the applicable commit workflow. Preserve unrelated working tree and index changes, and keep them out of these commits.
+If the maintainer workflow is enabled and the request isn’t explicitly limited to assessment, follow the [maintainer approval and execution procedure](maintainer-workflow.md#greet-resource-contacts) for each resource that meets either condition above. It owns the combined confirmation before any addition or publication actions. In the standard workflow, offer to add an entry and create its separate commit only after displaying a positive recommendation, rationale, proposed placement, and complete entry. Don’t request authorization again for covered actions. Standard approval covers only the local addition and commit, not pushing or submitting a pull request.
+
+### Create Addition Commits
+
+Once adding and committing are explicitly authorized, recheck the current list for duplication and add only the approved entry to `README.md`, following the placement and formatting guidance above. Run the required repository checks and create one commit per approved addition through the applicable commit workflow. Preserve unrelated working tree and index changes, and keep them out of these commits.
 
 Use the following complete commit message, replacing the placeholder with the resource’s verified name:
 
@@ -80,15 +82,13 @@ Use the following complete commit message, replacing the placeholder with the re
 Add `<resource-name>`
 ```
 
-Approval covers the local addition and its commit, not pushing or submitting a pull request.
-
-When the maintainer workflow is enabled, don’t conduct a separate contact lookup for assessment or wording-only requests, and don’t let recipient uncertainty prevent an otherwise approved addition from being committed. For successfully committed resources in that workflow, load and follow the [push and greeting procedure](maintainer-workflow.md#greet-resource-contacts) when returning addition results.
+Don’t let recipient uncertainty prevent an otherwise approved addition from being committed. After creating maintainer addition commits, continue with the patch inspection in [Bind Approved Additions to Commits](maintainer-workflow.md#bind-approved-additions-to-commits).
 
 ## Verify Maintainer Account
 
 During workflow selection, don’t mention this check or its result, failure, or selected workflow unless the user asks. This affects narration only, not required tool approvals.
 
-Run this read-only check automatically once for workflow selection, using `gh`’s existing authentication for `github.com`:
+Run this read-only check once per invocation when a placement issue or a proposed addition or publication first requires workflow selection, using `gh`’s existing authentication for `github.com`:
 
 ```sh
 gh api graphql --hostname github.com \
@@ -98,4 +98,4 @@ gh api graphql --hostname github.com \
 
 Enable the maintainer workflow only when the command exits successfully and prints exactly `true`. Otherwise, keep the standard workflow. Don’t require a user-run check or change authentication to enable it.
 
-The check verifies the account authenticating the API request, not a Git author, repository owner, or browser session. Retain the result only for this invocation. After workflow selection, return to [Resolve Scope](#resolve-scope). Verification doesn’t change the inclusion standard or authorize mutations.
+The check verifies the account authenticating the API request, not a Git author, repository owner, or browser session. Retain the result only for this invocation. After workflow selection, resume the calling step. Verification doesn’t change the inclusion standard or authorize mutations.
