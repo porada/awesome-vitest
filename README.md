@@ -167,6 +167,7 @@
 - [**ember-vitest**](https://github.com/NullVoxPopuli/ember-vitest) — Test Ember projects.
 - [**expo-vitest**](https://github.com/kat-tax/expo-vitest) — Test Expo apps with shared APIs for unit and device tests.
 - [**gesso-testing**](https://github.com/kevinpbaker/gesso/tree/main/packages/testing) — Test Gesso components without a browser, with semantic queries and layout diagnostics.
+- [**nitro-test-utils**](https://github.com/johannschopplich/nitro-test-utils) — Test Nitro apps with production build support and local Cloudflare bindings.
 - [**vitest-browser-preact**](https://github.com/JoviDeCroock/vitest-browser-preact) — Test Preact components in Browser Mode.
 - [**vitest-browser-three**](https://github.com/linbingquan/vitest-browser-three) — Test Three.js shader logic on a real GPU.
 - [**vitest-expo**](https://github.com/niondigital/vitest-expo) — Test Expo apps with SDK-specific mocks and navigation helpers.
