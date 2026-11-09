@@ -90,6 +90,7 @@
 - [**power-mode-reporter.vitest**](https://github.com/nomasprime/power-mode-reporter.vitest) — Customizable dot reporter with macOS sound notifications.
 - [**vitest-llm-reporter**](https://github.com/hansjm10/vitest-llm-reporter) — Generate compact JSON test reports for LLMs, with failure context and streaming progress.
 - [**vitest-md-reporter**](https://github.com/robertozmc/vitest-md-reporter) — Generate Markdown test reports for CI and coding agents.
+- [**vitest-qase-reporter**](https://github.com/qase-tms/qase-javascript/tree/main/qase-vitest) — Qase TestOps reporter.
 - [**vitest-sentry-reporter**](https://github.com/cadesalaberry/vitest-sentry-reporter) — Sentry reporter for failed tests.
 - [**vitest-sonar-reporter**](https://github.com/AriPerkkio/vitest-sonar-reporter) — SonarQube reporter for test execution results.
 - [**vitest-teamcity-reporter**](https://github.com/eratio08/vitest-teamcity-reporter) — TeamCity reporter.
