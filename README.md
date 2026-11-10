@@ -194,10 +194,7 @@
 ### Test Utilities
 
 - [**@logtape/testing-vitest**](https://github.com/dahlia/logtape/tree/main/packages/testing-vitest) — Report LogTape logs when tests fail.
-- [**saidvsdid**](https://github.com/JorgeAV99/saidvsdid) — Detect deleted, skipped, or weakened tests and test configuration changes in pull requests.
 - [**standard-matchers**](https://github.com/catena-labs/standard-parse/tree/main/packages/standard-matchers) — Validate against Standard Schema, with assertions on parsed values.
-- [**test-inventory**](https://github.com/Huldoser/test-inventory) — Extract test metadata from source, including tags, skip conditions, and skip reasons.
-- [**vitest-dedup**](https://github.com/figueiredoluiz/vitest-dedup) — Find duplicate and near-duplicate tests through static analysis.
 - [**vitest-fail-on-console**](https://github.com/thomasbrodusch/vitest-fail-on-console) — Fail tests on unexpected console errors and warnings.
 - [**vitest-plugin-random-seed**](https://github.com/aklinker1/vitest-plugin-random-seed) — Provide a reproducible seed for random test data generators.
 - [**vitest-testdirs**](https://github.com/luxass/vitest-testdirs) — Run tests against isolated directory fixtures.
@@ -224,12 +221,21 @@
 - [**@knapsack-pro/vitest**](https://github.com/KnapsackPro/knapsack-pro-js/tree/main/packages/vitest) — Dynamically distribute tests across CI nodes using Knapsack Pro.
 - [**@nx/vitest**](https://nx.dev/docs/technologies/test-tools/vitest/introduction) — Run tests in Nx workspaces, with inferred tasks and CI splitting by test file.
 - [**@vitejs/devtools-vitest**](https://devtools.vite.dev/vitest/) — Run and watch tests from Vite DevTools.
-- [**bivium**](https://github.com/metonym/bivium) — Select affected tests before installing project dependencies.
 - [**neotest-vitest**](https://github.com/marilari88/neotest-vitest) — Run and debug tests in Neovim through Neotest.
+
+### Test Selection
+
+- [**bivium**](https://github.com/metonym/bivium) — Select affected tests before installing project dependencies.
 - [**tracegate-ci**](https://github.com/davidscotttufts/tracegate-ci) — Local CI that validates test selection against full runs before skipping tests, then spot-checks the skips.
 - [**vitest-affected**](https://github.com/craigvandotcom/vitest-affected) — Select affected tests using a persistent runtime dependency graph.
-- [**vitest-flaky**](https://github.com/sansanth/vitest-flaky) — Find flaky tests locally by varying timer delays and test order, with seeds for replay.
 - [**vitest-git-trigger-patterns**](https://github.com/manbearwiz/vitest-git-trigger-patterns) — Map changed files to specific tests during `--changed` runs.
+
+### Test Analysis
+
+- [**saidvsdid**](https://github.com/JorgeAV99/saidvsdid) — Detect deleted, skipped, or weakened tests and test configuration changes in pull requests.
+- [**test-inventory**](https://github.com/Huldoser/test-inventory) — Extract test metadata from source, including tags, skip conditions, and skip reasons.
+- [**vitest-dedup**](https://github.com/figueiredoluiz/vitest-dedup) — Find duplicate and near-duplicate tests through static analysis.
+- [**vitest-flaky**](https://github.com/sansanth/vitest-flaky) — Find flaky tests locally by varying timer delays and test order, with seeds for replay.
 
 ### Agent Skills
 
