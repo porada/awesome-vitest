@@ -207,6 +207,7 @@
 
 ### Test Design
 
+- [**@amiceli/vitest-cucumber**](https://github.com/amiceli/vitest-cucumber) — Run Gherkin scenarios and detect missing steps.
 - [**@epure/vitest**](https://github.com/epuremethod/vitest) — Run Gherkin scenarios and structured YAML fixtures as tests.
 - [**@fast-check/vitest**](https://github.com/dubzzz/fast-check/tree/main/packages/vitest) — Find edge cases with property-based testing and simplify failing inputs.
 - [**@harnessed-ts/dom**](https://github.com/joegaudet/harnessed/tree/main/packages/dom) — Test components through reusable harnesses with Testing Library.
