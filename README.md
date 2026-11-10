@@ -220,6 +220,7 @@
 
 ### Test Execution
 
+- [**@djankies/vitest-mcp**](https://github.com/djankies/vitest-mcp) — Run tests through MCP with structured results and coverage analysis.
 - [**@knapsack-pro/vitest**](https://github.com/KnapsackPro/knapsack-pro-js/tree/main/packages/vitest) — Dynamically distribute tests across CI nodes using Knapsack Pro.
 - [**@nx/vitest**](https://nx.dev/docs/technologies/test-tools/vitest/introduction) — Run tests in Nx workspaces, with inferred tasks and CI splitting by test file.
 - [**@vitejs/devtools-vitest**](https://devtools.vite.dev/vitest/) — Run and watch tests from Vite DevTools.
