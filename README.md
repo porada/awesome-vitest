@@ -169,6 +169,7 @@
 - [**@stencil/vitest**](https://github.com/stenciljs/vitest) — Test Stencil components in Node.js and Browser Mode.
 - [**@storybook/addon-vitest**](https://storybook.js.org/docs/writing-tests/integrations/vitest-addon) — Run Storybook stories as component tests in Browser Mode.
 - [**@wojtekmaj/vitest-react-native**](https://github.com/wojtekmaj/vitest-react-native) — Test React Native projects with the framework’s official mocks.
+- [**@workflow/vitest**](https://workflow-sdk.dev/docs/testing) — Test Workflow SDK workflows without a server.
 - [**ember-vitest**](https://github.com/NullVoxPopuli/ember-vitest) — Test Ember projects.
 - [**expo-vitest**](https://github.com/kat-tax/expo-vitest) — Test Expo apps with shared APIs for unit and device tests.
 - [**gesso-testing**](https://github.com/kevinpbaker/gesso/tree/main/packages/testing) — Test Gesso components without a browser, with semantic queries and layout diagnostics.
