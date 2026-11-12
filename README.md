@@ -96,6 +96,7 @@
 - [**vitest-sentry-reporter**](https://github.com/cadesalaberry/vitest-sentry-reporter) — Sentry reporter for failed tests.
 - [**vitest-sonar-reporter**](https://github.com/AriPerkkio/vitest-sonar-reporter) — SonarQube reporter for test execution results.
 - [**vitest-teamcity-reporter**](https://github.com/eratio08/vitest-teamcity-reporter) — TeamCity reporter.
+- [**vitest-tesults-reporter**](https://github.com/tesults/vitest-tesults-reporter) — Tesults reporter with local JSON output.
 - [**vitest-time-stats-reporter**](https://github.com/crcatala/vitest-time-stats-reporter) — Reporter showing test duration distributions and highlighting slow tests.
 
 ### Snapshot Testing
