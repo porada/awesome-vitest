@@ -233,6 +233,7 @@
 
 ### Test Selection
 
+- [**@goodfoot/vitest-cache**](https://github.com/goodfoot-io/marketplace/tree/main/packages/vitest-cache) — Cache passing test results by input content, with reuse across Git worktrees.
 - [**bivium**](https://github.com/metonym/bivium) — Select affected tests before installing project dependencies.
 - [**tracegate-ci**](https://github.com/davidscotttufts/tracegate-ci) — Local CI that validates test selection against full runs before skipping tests, then spot-checks the skips.
 - [**vitest-affected**](https://github.com/craigvandotcom/vitest-affected) — Select affected tests using a persistent runtime dependency graph.
