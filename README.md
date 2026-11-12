@@ -149,6 +149,7 @@
 - [**vitest-environment-webgl-node**](https://github.com/bhouston/vitest-gpu/tree/main/packages/vitest-environment-webgl-node) — Run WebGL tests in Node.js without a browser.
 - [**vitest-environment-webgpu-node**](https://github.com/bhouston/vitest-gpu/tree/main/packages/vitest-environment-webgpu-node) — Run WebGPU tests in Node.js without a browser.
 - [**vitest-plugin-vscode**](https://github.com/Darhagonable/vitest-plugin-vscode) — Test extensions inside VS Code.
+- [**vitest-pool-quickjs**](https://github.com/tom96da/vitest-pool-quickjs) — Run test files in QuickJS through a custom pool.
 - [**warpdom**](https://github.com/sonukapoor/warpdom) — Run DOM tests with `jsdom` compatibility profiles and optional selective test isolation.
 
 ### Language Support
