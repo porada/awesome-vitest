@@ -208,6 +208,7 @@
 ### Test Documentation
 
 - [**@describe-me/vitest**](https://github.com/grzehub/describe-me/tree/main/packages/vitest) — Generate React component documentation from existing tests.
+- [**@effect/doctest**](https://github.com/Effect-TS/effect/tree/main/packages/tools/doctest) — Turn TypeScript snippets from JSDoc, Markdown, and MDX into runnable tests.
 - [**executable-stories-vitest**](https://github.com/jagreehal/executable-stories/tree/main/packages/executable-stories-vitest) — Write `Given`/`When`/`Then` stories in tests and generate documentation.
 
 ### Test Design
