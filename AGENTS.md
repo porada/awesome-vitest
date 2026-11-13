@@ -22,6 +22,8 @@ Within each category under `Packages and Tools`, alphabetize entries using that 
 
 Outside `Packages and Tools`, match the existing entry structure and meaningful order under the target heading. `Official Resources` uses plain links without descriptions.
 
+When adding or revising a description, read its complete category and match the established grammatical form without forcing identical wording or length. Use noun phrases where peers identify the kind of resource and verb-led descriptions where peers describe an action.
+
 The spaced em dash between a resource name and its description is a structural separator and an explicit exception to the [editorial conventions](#editorial-conventions). Apply those conventions inside descriptions.
 
 In entry descriptions, treat exact identifiers used to install, import, configure, or call software as code tokens, even when they serve as nouns in prose. These include package names, environment identifiers, configuration keys and literal values, and API identifiers. Keep product names, language names, and general technical terms in plain text unless they denote literal identifiers in that context.

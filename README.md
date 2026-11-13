@@ -90,8 +90,8 @@
 - [**@qualflare/vitest**](https://github.com/Qualflare/qualflare-vitest) — Qualflare reporter with retry history.
 - [**@testream/vitest-reporter**](https://docs.testream.app/reporters/vitest) — Testream reporter with Jira integration.
 - [**power-mode-reporter.vitest**](https://github.com/nomasprime/power-mode-reporter.vitest) — Customizable dot reporter with macOS sound notifications.
-- [**vitest-llm-reporter**](https://github.com/hansjm10/vitest-llm-reporter) — Generate compact JSON test reports for LLMs, with failure context and streaming progress.
-- [**vitest-md-reporter**](https://github.com/robertozmc/vitest-md-reporter) — Generate Markdown test reports for CI and coding agents.
+- [**vitest-llm-reporter**](https://github.com/hansjm10/vitest-llm-reporter) — JSON reporter for LLMs, with compact output, failure context, and streaming progress.
+- [**vitest-md-reporter**](https://github.com/robertozmc/vitest-md-reporter) — Markdown reporter for CI and coding agents.
 - [**vitest-qase-reporter**](https://github.com/qase-tms/qase-javascript/tree/main/qase-vitest) — Qase TestOps reporter.
 - [**vitest-sentry-reporter**](https://github.com/cadesalaberry/vitest-sentry-reporter) — Sentry reporter for failed tests.
 - [**vitest-sonar-reporter**](https://github.com/AriPerkkio/vitest-sonar-reporter) — SonarQube reporter for test execution results.
@@ -235,7 +235,7 @@
 
 - [**@goodfoot/vitest-cache**](https://github.com/goodfoot-io/marketplace/tree/main/packages/vitest-cache) — Cache passing test results by input content, with reuse across Git worktrees.
 - [**bivium**](https://github.com/metonym/bivium) — Select affected tests before installing project dependencies.
-- [**tracegate-ci**](https://github.com/davidscotttufts/tracegate-ci) — Local CI that validates test selection against full runs before skipping tests, then spot-checks the skips.
+- [**tracegate-ci**](https://github.com/davidscotttufts/tracegate-ci) — Validate test selection against full runs before skipping tests in local CI, then spot-check the skips.
 - [**vitest-affected**](https://github.com/craigvandotcom/vitest-affected) — Select affected tests using a persistent runtime dependency graph.
 - [**vitest-git-trigger-patterns**](https://github.com/manbearwiz/vitest-git-trigger-patterns) — Map changed files to specific tests during `--changed` runs.
 
