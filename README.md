@@ -242,6 +242,7 @@
 
 ### Test Analysis
 
+- [**@mizchi/mutator**](https://github.com/mizchi/mutator) — Find gaps in tests through mutation testing, with Git diff filtering and cached results.
 - [**@stryker-mutator/vitest-runner**](https://stryker-mutator.io/docs/stryker-js/vitest-runner/) — Measure test effectiveness with Stryker mutation testing.
 - [**saidvsdid**](https://github.com/JorgeAV99/saidvsdid) — Detect deleted, skipped, or weakened tests and test configuration changes in pull requests.
 - [**test-inventory**](https://github.com/Huldoser/test-inventory) — Extract test metadata from source, including tags, skip conditions, and skip reasons.
