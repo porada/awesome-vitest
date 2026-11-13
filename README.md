@@ -113,6 +113,7 @@
 
 ### Visual Regression Testing
 
+- [**@argos-ci/vitest**](https://github.com/argos-ci/argos-javascript/tree/main/packages/vitest) — Review changes to browser screenshots and value snapshots in Argos.
 - [**@chromatic-com/vitest**](https://www.chromatic.com/docs/vitest/) — Capture DOM snapshots from Browser Mode tests for visual regression testing and review in Chromatic.
 - [**@storycap-testrun/browser**](https://github.com/reg-viz/storycap-testrun/tree/main/packages/browser) — Capture Storybook screenshots with stability checks and per-story controls.
 - [**@uiverify/vitest**](https://github.com/uiverify/uiverify/tree/main/packages/vitest) — Capture DOM snapshots from component tests for hosted visual regression testing.
