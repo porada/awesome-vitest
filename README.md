@@ -83,6 +83,7 @@
 
 ### Reporters
 
+- [**@ctrl/sentry-tests**](https://github.com/scttcper/dom/tree/main/packages/sentry-tests) — Sentry reporter for failed and flaky tests, with execution traces and page captures.
 - [**@flakiness/vitest**](https://github.com/flakiness/vitest) — Flakiness.io reporter.
 - [**@kinora/vitest-reporter**](https://github.com/kinora-dev/kinora/tree/main/packages/vitest-reporter) — Kinora reporter with Playwright traces and Storybook integration.
 - [**@mergifyio/vitest**](https://github.com/Mergifyio/mergify-ci-integrations/tree/main/clients/ts/packages/vitest) — Mergify CI Insights reporter with flaky test detection and quarantine.
