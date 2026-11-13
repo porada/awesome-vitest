@@ -215,6 +215,7 @@
 
 - [**@amiceli/vitest-cucumber**](https://github.com/amiceli/vitest-cucumber) — Run Gherkin scenarios and detect missing steps.
 - [**@botpress/vai**](https://github.com/botpress/botpress/tree/master/packages/vai) — Evaluate output with LLM assertions, ratings, and structured extraction.
+- [**@contract-case/contract-case-vitest**](https://github.com/case-contract-testing/contract-case) — Define and verify consumer-driven contracts for HTTP interactions and function calls.
 - [**@epure/vitest**](https://github.com/epuremethod/vitest) — Run Gherkin scenarios and structured YAML fixtures as tests.
 - [**@fast-check/vitest**](https://github.com/dubzzz/fast-check/tree/main/packages/vitest) — Find edge cases with property-based testing and simplify failing inputs.
 - [**@harnessed-ts/dom**](https://github.com/joegaudet/harnessed/tree/main/packages/dom) — Test components through reusable harnesses with Testing Library.
