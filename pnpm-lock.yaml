@@ -174,8 +174,8 @@ importers:
   .:
     devDependencies:
       '@standard-config/prettier':
-        specifier: ^1.23.0
-        version: 1.23.0(prettier@3.10.1)
+        specifier: ^1.23.1
+        version: 1.23.1(prettier@3.10.1)
       prettier:
         specifier: ^3.10.1
         version: 3.10.1
@@ -217,8 +217,8 @@ packages:
     engines: {node: ^v12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
 
-  '@standard-config/prettier@1.23.0':
-    resolution: {integrity: sha512-WewCQr9TD11seqrpe5jEhwScXoAlrFWaeI8lD31UYNhG1cYOfRlojGU1p7Iwfs0gVJSFdZVgz4qRucGh8+bQUw==}
+  '@standard-config/prettier@1.23.1':
+    resolution: {integrity: sha512-vv32yOf/s1p+tdtPgumXeJ/XCatAwq3DM2zfxo/9hmvDMVw942SUe7/xNt506Itvhn4AxV1RLbDJ2MVNZiySMw==}
     engines: {node: '>=20'}
     peerDependencies:
       prettier: ^3.10.0
@@ -244,8 +244,8 @@ packages:
     peerDependencies:
       prettier: '>=3'
 
-  prettier-plugin-markdown-html@1.6.1:
-    resolution: {integrity: sha512-AN3UDFOJ3bdTJzkxNW6Xd3my3NMmm2UOpFbb/1VzE1v+U6a/qRY1y60Ecl9unWWtA18Fo8Um/SzwwFBWIJqfDg==}
+  prettier-plugin-markdown-html@1.6.2:
+    resolution: {integrity: sha512-FYpQUrmWUm80dVXiOXeBQUFWCnm07fCCn+KXIN6xhgf3yxVvMRP2laVWCUiwNSdH+hjXKEmQAYPNp2CE2Eiwbg==}
     engines: {node: '>=20'}
     peerDependencies:
       prettier: '>=3'
@@ -268,8 +268,8 @@ packages:
     peerDependencies:
       prettier: ^3.0.0
 
-  prettier-plugin-yaml@1.3.1:
-    resolution: {integrity: sha512-SPBhTO+R7R1fYghQ1SLR8Wgvcq/CZEDaFEu2XJKhAm48AxbnLjwuY9N1voA6xGK1mFQqEdkpQwDAxu48GhojHQ==}
+  prettier-plugin-yaml@1.3.2:
+    resolution: {integrity: sha512-b5DAozUYb018BCGTQpEimlaVnoEESP/Ax5VmUIFdDc/aD/uisRkmc4mh45mLV5GvsGxoien+eDbsk/K7hk1H3w==}
     engines: {node: '>=20'}
     peerDependencies:
       prettier: '>=3'
@@ -330,15 +330,15 @@ snapshots:
       '@reteps/dockerfmt-linux-arm64': 0.5.4
       '@reteps/dockerfmt-linux-x64': 0.5.4
 
-  '@standard-config/prettier@1.23.0(prettier@3.10.1)':
+  '@standard-config/prettier@1.23.1(prettier@3.10.1)':
     dependencies:
       prettier: 3.10.1
       prettier-plugin-expand-json: 1.2.1(prettier@3.10.1)
-      prettier-plugin-markdown-html: 1.6.1(prettier@3.10.1)
+      prettier-plugin-markdown-html: 1.6.2(prettier@3.10.1)
       prettier-plugin-pkg: 0.22.1(prettier@3.10.1)
       prettier-plugin-sh: 0.20.2(prettier@3.10.1)
       prettier-plugin-sort-json: 4.2.0(prettier@3.10.1)
-      prettier-plugin-yaml: 1.3.1(prettier@3.10.1)
+      prettier-plugin-yaml: 1.3.2(prettier@3.10.1)
 
   chownr@3.0.0: {}
 
@@ -354,7 +354,7 @@ snapshots:
     dependencies:
       prettier: 3.10.1
 
-  prettier-plugin-markdown-html@1.6.1(prettier@3.10.1):
+  prettier-plugin-markdown-html@1.6.2(prettier@3.10.1):
     dependencies:
       prettier: 3.10.1
 
@@ -372,7 +372,7 @@ snapshots:
     dependencies:
       prettier: 3.10.1
 
-  prettier-plugin-yaml@1.3.1(prettier@3.10.1):
+  prettier-plugin-yaml@1.3.2(prettier@3.10.1):
     dependencies:
       prettier: 3.10.1
       yaml: 2.9.1
