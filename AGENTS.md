@@ -12,6 +12,11 @@
 | Project-authored skill directories under `.agents/skills/` | Own delegated domain policy, workflows, validation, and reporting exceptions without contradicting applicable `AGENTS.md` instructions. |
 | `.agents/PROJECT.md` | Records constraints, durable facts, maintenance decisions, and rationale. It doesn’t override agent instructions. |
 
+## General
+
+- **Navigation:** Consult the relevant sections of `.agents/PROJECT.md`.
+- **Durable knowledge:** Add project knowledge to `.agents/PROJECT.md` only when its absence would likely cause a wrong future decision or substantial repeated investigation. Capture non-obvious constraints and rationale not already clear from canonical configuration, instructions, or source. Don’t record optimization recaps, routine implementation details, or workflow summaries. Prefer updating existing material over adding another explanation. If the task doesn’t permit the edit, report deferred documentation work only if it meets this threshold.
+
 ## List Entry Format
 
 Within each category under `Packages and Tools`, alphabetize entries using that category’s observed collation. Preserve the bold linked name, spaced em dash, and terminal period. Replace each placeholder in this structure with verified content:
